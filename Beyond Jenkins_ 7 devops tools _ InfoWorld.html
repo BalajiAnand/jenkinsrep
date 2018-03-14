@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<!-- saved from url=(0100)https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" class="wf-museo-n3-active wf-museo-n5-active wf-museo-n7-active wf-museo-n9-active wf-museosans-i3-active wf-museosans-i5-active wf-museosans-i7-active wf-museosans-n3-active wf-museosans-n5-active wf-museosans-n7-active wf-museosans-n9-active wf-museosanscondensed-i7-active wf-museosanscondensed-i9-active wf-museosanscondensed-n1-active wf-museosanscondensed-n5-active wf-museosanscondensed-n7-active wf-museosanscondensed-n9-active wf-active" style="overflow: auto;"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/webtag.js.download"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/insight.min.js.download"></script><script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/628093423999127" async=""></script><script async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/fbevents.js.download"></script><script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/ptrack-v1.0.0-engagedtime.js.download"></script><script async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/teads-format.min.js.download"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/linkid.js.download"></script><script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/superduper.js.download"></script><script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/infoworld.com.download"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/analytics.js.download"></script><script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/osd.js.download"></script><script async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/beacon.js.download"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/recaptcha__en.js.download"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/recaptcha__en.js.download"></script><script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/pubads_impl_rendering_186.js.download"></script><script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/init"></script><script async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/gtm.js.download"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/yieldbot.intent.js.download"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jpt"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jpt(1)"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jpt(2)"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/auction"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/auction(1)"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/auction(2)"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/auction(3)"></script><script async="" type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/gpt.js.download"></script><script type="text/javascript" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/prebid.min.js.download"></script>
+<!-- ad-related js -->
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jquery-1.10.2.min.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/init_device.js.download"></script>
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jquery_cookie.js.download"></script>
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/gpt_includes.js.download"></script>
+<script type="text/javascript">if(adLayer==null||adLayer=='undefined'){var adLayer=[];}adLayer["itemType"]="article";</script>
+<script type="text/javascript">try{IDG.GPT.unitName="/8456/IDG.US_E_Infoworld.com";}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.unitName=IDG.GPT.unitName+"/"+"application-development_section";}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}var global_ShowSuper=true;var global_ShowHero=false;var url=window.location.href;if(url.indexOf("?")>1){url=url.split('?')[0];}try{IDG.GPT.addTarget("URL",encodeURIComponent(url));}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("zone",'article/application-development');}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("chan",'application-development,data-center');}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("articleId",'3070454');}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("type",'feature');}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("typeId",'6');}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("manufacturer",'ibm');}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("templateType",'article-default');}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("categoryIds",[3646,3808]);}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("categorySlugs",['application-development','devops']);}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{if(null!=IDG.GPT.getQsVal("env")){IDG.GPT.addTarget("env",IDG.GPT.getQsVal("env").replace(/\W/g,""));}}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("author",'Paul Krill');}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("page_type",'');}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}try{IDG.GPT.addTarget("insiderContent",'false');}catch(exception){console.log("google_dfp can't use IDG.GPT "+exception);}</script>
+<script type="text/javascript"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/thm_pre.js.download"></script>
+<script type="text/javascript">(function(){try{var proximic_data={"data":["300003","121100","112200","112202","131100","131119","240000","240002","240003","240004","240001","240005","240006","240007","240008","240009","240011","240012","240013","240014","240017","240015","240016","0pnnfm","4caxri","20f4sh","bkwp85","enwcef","bsuu95","5770wv","ku18tu","l7u275","x8eev1","9v0tiu","qh9ovz","m853gr","pkmn5g","skl8g2","7t9001","e2co9k","folvaf","6vexzx","g7d4ig","z7xuj9","pytywb","44ywyv","3i8pvm","xks7sj","yn3dkv","fxbc1d","agtqg7","7grvv1","agt9m3","240saz","pcz604","itgwkk","le330e","wq79u8","n2qz3z","8hdk5f","500017","500207","500209","500247","500220","500234","500225","500226","500241","500230","500221","500218"]};IDG.GPT.addTarget("proximic",proximic_data.data);}catch(e){console.log("Error: "+e);}})();</script>
+<script>var isMobile=(typeof IDG.DEVICE!=='undefined')?IDG.DEVICE.isMobile():false;try{IDG.GPT.disableInitialLoad=true;IDG.GPT.addBiddingParams("yieldbotPsn",(isMobile?"00f7":"2e20"));IDG.GPT.addBiddingParams("appnexusPlacementId",(isMobile?"6451382":"6353032"));IDG.GPT.addBiddingParams("TriLiftPrefix","infoworld_ros_");}catch(e){console.log("Error in adding bidding params: "+e);}</script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/narf_prebid.js.download"></script>
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/gpt_starter.js.download"></script>
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/gpt_launcher.js.download"></script>
+<!-- metas -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Beyond Jenkins: 7 devops tools | InfoWorld</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html">
+<meta itemprop="url" content="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html">
+<meta name="description" content="These alternatives to Jenkins offer unique capabilities for automating software integration and delivery">
+<meta name="news_keywords" content="Application Development,GitHub">
+<meta name="DC.date.issued" content="2016-05-19T03:00-05:00">
+<meta name="date" content="2016-05-19">
+<link rel="amphtml" href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.amp.html">
+<meta property="og:title" content="Beyond Jenkins: 7 devops tools">
+<meta property="og:description" content="These alternatives to Jenkins offer unique capabilities for automating software integration and delivery">
+<meta property="og:image" content="https://images.techhive.com/images/article/2016/01/marketing-automation-100638792-primary.idge.jpeg">
+<meta property="og:image:width" content="620">
+<meta property="og:image:height" content="413">
+<meta itemprop="image" content="https://images.techhive.com/images/article/2016/01/marketing-automation-100638792-primary.idge.jpeg">
+<meta itemprop="thumbnailURl" content="https://images.techhive.com/images/article/2016/01/marketing-automation-100638792-primary.idge.jpeg">
+<link rel="image_src" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/marketing-automation-100638792-primary.idge.jpeg">
+<meta name="twitter:image" content="https://images.techhive.com/images/article/2016/01/marketing-automation-100638792-primary.idge.jpeg">
+<meta property="og:type" content="article">
+<meta name="author" content="Paul Krill">
+<meta property="og:site_name" content="InfoWorld">
+<meta property="fb:app_id" content="196366870381968">
+<meta property="og:url" content="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html">
+<!-- Use Twitter Summary Card with Large Image for articles and videos -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@infoworld">
+<meta name="twitter:description" content="These alternatives to Jenkins offer unique capabilities for automating software integration and delivery">
+<meta name="rating" content="General">
+<meta name="robots" content="NOODP,NOYDIR">
+<meta name="google-site-verification" content="RD0aa-ox1hse8Hjz2fU6KzOMnGyqLwYUv13rGucjtjA">
+<meta name="msvalidate.01" content="04917178B598F0648B9BAD693FEC29A3">
+<!-- Sailthru -->
+<meta name="sailthru.tags" content="application-development,devops,paul-krill,feature,medium">
+<meta name="sailthru.image.thumb" content="https://images.techhive.com/images/article/2016/01/marketing-automation-100638792-small.idge.jpeg">
+<meta name="sailthru.image.full" content="https://images.techhive.com/images/article/2016/01/marketing-automation-100638792-primary.idge.jpeg">
+<meta name="sailthru.title" content="Beyond Jenkins: 7 devops tools">
+<meta name="sailthru.description" content="These alternatives to Jenkins offer unique capabilities for automating software integration and delivery">
+<meta name="displaytype" content="article">
+<meta name="source" content="infoworld">
+<meta name="category" content="software development,devops">
+<meta name="storytype" content="feature">
+<!-- pagination -->
+<link id="mobile-size" rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/inline-header-mobile.css"><link id="desktop-size" rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/inline-header.css">
+<script>if(window.matchMedia("(min-width: 768px)").matches){document.getElementById('mobile-size').insertAdjacentHTML('afterend','<link id="desktop-size" rel="stylesheet" href="/www.idge/css/inline-header.css?v=20180313113117" />');}</script>
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/inline-header(1).css">
+<!-- css -->
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/normalize.css">
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/prettify.css">
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/select2.css">
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/article.css">
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/insider-promo-styles.css">
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/print.css" media="print">
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/article(1).css">
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/ss-social.css">
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/ss-standard.css">
+<!--[if lte IE 8]>  
+		<link href="/www.idge/css/webfonts/ss-ie8.css" rel="stylesheet" />
+	<![endif]-->
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/fmz2tqe.js.download"></script>
+<style type="text/css">.tk-museo{font-family:"museo",serif;}.tk-museo-sans{font-family:"museo-sans",sans-serif;}.tk-museo-sans-condensed{font-family:"museo-sans-condensed",sans-serif;}</style><link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/fmz2tqe-d.css"><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<!--  fav and touch icons -->
+<link rel="shortcut icon" type="image/x-icon" href="https://idge.staticworld.net/ifw/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://idge.staticworld.net/ifw/IFW_logo_social_144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://idge.staticworld.net/ifw/IFW_logo_social_114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://idge.staticworld.net/ifw/IFW_logo_social_72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://idge.staticworld.net/ifw/IFW_logo_social_57x57.png">
+<link rel="apple-touch-icon" href="https://idge.staticworld.net/ifw/IFW_logo_social_300x300.png">
+<!-- LiveRamp Sources -->
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/pippio.min.js.download" async=""></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/liveRamp.js.download"></script>
+<!-- End of LiveRamp -->
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/select2.js.download"></script>
+<script>$(document).ready(function(){$("select#country").select2({placeholder:"country",minimumResultsForSearch:Infinity,allowClear:true});$("#jobPosition").select2({placeholder:"position",minimumResultsForSearch:Infinity,allowClear:true});$("#jobFunction").select2({placeholder:"function",minimumResultsForSearch:Infinity,allowClear:true});$("#companySize").select2({placeholder:"company size",minimumResultsForSearch:Infinity,allowClear:true});$("#industry").select2({placeholder:"industry",minimumResultsForSearch:Infinity,allowClear:true});});</script>
+<script>var brandCode="ifw";var brandName="InfoWorld";var regDebugLog=false;var regApiUrl="https://regdev.idge.int/api/";var tokenPrefix='www';var tokenSuffix='.com/insider/token?';var brandDomain=".infoworld.com";var insiderContentType="article";var notEmptyArticle=false;var notEmptyMediaResource=false;var isInsiderPremium=false;var isResourceInsiderPremium=false;regApiUrl="https://reg.idgenterprise.com/api/";regDebugLog=false;tokenPrefix="http://www";tokenSuffix="/insider/token";notEmptyArticle=true;</script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/alc_hashes.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/insider_reg_api.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jquery.maskedinput-1.4.min.js.download"></script>
+<script>$(document).ready(function(){if(typeof(IDG.insiderReg.readCookie('nsdr'))!=='undefined'){$('#welcome-message').show();IDG.insiderReg.personalize();}else{$('.signin-register').show();}});</script>
+<!-- Begin Eloqua Tracking -->
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/elqCfg.js.download"></script>
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/elqImg.js.download"></script><link rel="preload" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/integrator.js.download" as="script"><script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/integrator.js.download"></script><script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/pubads_impl_186.js.download" async=""></script><script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/t"></script></head><body id="article3070454" class="article infoworld insider-plus" style=""><layer hidden="true"><img src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/svrGP.aspx" border="0" width="1" height="1"></layer>
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/elqFCS.js.download"></script><iframe name="elqFCSFra" style="display: none" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/elqBlank.html" width="1" height="1" frameborder="0" border="0" noresize="" scrolling="no"></iframe>
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/elqScr.js.download"></script><script type="text/javascript" language="JavaScript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/svrGP(1).aspx"></script>
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/elqIDG.js.download"></script>
+<script type="text/javascript">IDG=window.IDG||{};IDG.PageInfo=IDG.PageInfo||{};IDG.PageInfo=function(){return{eloqua_type:"article",eloqua_topic:"development"};}();var elqCustomerGUID="";if(this.GetElqCustomerGUID&&typeof GetElqCustomerGUID==="function"){elqCustomerGUID=GetElqCustomerGUID();}IDG.Eloqua.invoke_flash();</script>
+<!-- End Eloqua Tracking -->
+<script type="text/javascript">var g_arrModules=new Array();</script>
+<meta name="parsely-title" content="Beyond Jenkins: 7 devops tools">
+<meta name="parsely-link" content="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html">
+<meta name="parsely-type" content="NewsArticle">
+<meta name="parsely-image-url" content="https://images.techhive.com/images/article/2016/01/marketing-automation-100638792-orig.jpeg">
+<meta name="parsely-pub-date" content="2016-05-19T10:00:00Z">
+<meta name="parsely-section" content="Software Development">
+<meta name="parsely-author" content="Paul Krill">
+<meta name="parsely-tags" content="type: feature,source: infoworld,original">
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/load.js.download" async=""></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/ads.js.download"></script>
+<!-- Adding articleHasVideo value in datalayer-->
+<script>var insiderSignedIn=document.cookie.indexOf("nsdr")>-1;var dlJobFunction='';var dlJobPosition='';var dlIndustry='';if(insiderSignedIn){var insiderToken=IDG.insiderReg.readCookie("nsdr");var tokens=IDG.insiderReg.readCookieProperty(insiderToken);if(!(tokens['jobPosition']===undefined)){dlJobPosition=tokens['jobPosition'];}if(!(tokens['jobFunction']===undefined)){dlJobFunction=tokens['jobFunction'];}if(!(tokens['industry']===undefined)){dlIndustry=tokens['industry'];}}insiderSignedIn=insiderSignedIn.toString();var sincePublished='664 days';sincePublished=sincePublished.split(" ")[0];dataLayer=[{'articleId':'3070454','articleDisplayId':'1','articleTitle':'Beyond Jenkins: 7 devops tools','articleType':'Feature','audience':'enterprise','author':'Paul Krill','blogName':'','brandpost':'false','categoryIdList':'3646,3808','categoryIdPrimary':'3646','contentStrategy':'','contentType':'feature','datePublished':'2016-05-19','dateUpdated':'','daysSincePublished':sincePublished,'daysSinceUpdated':'','displayType':'article','environment':'production','ga_enabled':'true','gaTrackingId':'UA-6647659-1','geolocEnabled':'true','industry':dlIndustry,'insiderSignedIn':insiderSignedIn,'isBlog':'false','isInsiderContent':'false','isICN':'false','jobFunction':dlJobFunction,'jobPosition':dlJobPosition,'pageNumber':'1','parselyEnabled':'true','parselyDomain':'infoworld.com','platform':'Web','primaryCategory':'software development','primaryCategoryList':'software development,devops','property':'infoworld','propertyCountry':'US','purchaseIntent':'','sailthruCustomerId':'15048a979f9e43e0bcdcd131b5cf2bcb','skimlinksId':'111346X1569476','source':'infoworld','sponsorName':'','tags':'','videoAutoplay':'false','articleHasVideo':'false'}];</script>
+<script type="text/javascript">var _sf_async_config={};_sf_async_config.uid=29363;_sf_async_config.path="/article/3070454/application-development/beyond-jenkins-7-devops-tools.html";_sf_async_config.title="Beyond Jenkins: 7 devops tools | InfoWorld";_sf_async_config.domain="infoworld.com";if(window.location.href.indexOf("video")&&true){_sf_async_config.playerdomain=_sf_async_config.domain.replace("www.","");}_sf_async_config.useCanonical=true;_sf_async_config.sections="application-development";_sf_async_config.authors="Paul Krill";</script>
+<script>var dataLayer=window.dataLayer=window.dataLayer||[];var adBlockStatus='false';function AdBlockEnabled(){var ad=document.createElement('ins');ad.className='AdSense';ad.style.display='block';ad.style.position='absolute';ad.style.top='-1px';ad.style.height='1px';if(document.body!=null){document.body.appendChild(ad);var isAdBlockEnabled=!ad.clientHeight;document.body.removeChild(ad);}return isAdBlockEnabled;}if(AdBlockEnabled()!=undefined){adBlockStatus=AdBlockEnabled().toString();}if(document.body==null){if(window.canRunAds===undefined){adBlockStatus='true';}else{adBlockStatus='false';}}dataLayer.push({'adBlockStatus':adBlockStatus});</script>
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?GTM-5C7C8C" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5C7C8C');</script>
+<!-- End Google Tag Manager -->
+<script id="jobbio-widget-script" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/inline.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/api.js.download" async="" defer=""></script>
+<link rel="dns-prefetch" href="https://images.techhive.com/"><link rel="dns-prefetch" href="https://images.idgesg.net/"><link rel="dns-prefetch" href="https://tags.bkrtx.com/">
+
+<!-- Begin welcome ad overlay - gpt-overlay position  -->
+
+<!--  End welcome ad overlay - gpt-overlay position -->
+<!-- BEGIN PAGE HEADER -->
+<header id="banner">
+<script>if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('.main-header').insertBefore($('#banner .ad'));}</script>
+<div class="topics-wrap">
+<section class="topics">
+<nav id="scrollable">
+<!-- blx4 #1064 blox4.raw_link_list  -->
+<ul>
+<li class="header">Trending<span class="colon">:</span></li>
+<li><a href="https://www.infoworld.com/category/application-development/" automate_uuid="ab179225-7f17-4d2c-a043-acc56c3a05cf">Software Development</a></li>
+<li><a href="https://www.infoworld.com/category/cloud-computing/" automate_uuid="6767de2e-7c11-4f25-bf8b-ccc0b81ded98">Cloud Computing</a></li>
+<li><a href="https://www.infoworld.com/category/machine-learning/" automate_uuid="b2c45d99-aa3d-4eef-9f12-73990e90315a">Machine Learning &amp; AI</a></li>
+<li><a href="https://www.infoworld.com/category/analytics/" automate_uuid="0fc4124f-ca04-4cd4-bae1-29c0e0f7504b">Analytics &amp; Big Data</a></li>
+<li><a href="https://www.infoworld.com/category/database/" automate_uuid="4419682e-0586-4afe-a069-c96e0b3a00b4">Database</a></li>
+<li><a href="https://www.infoworld.com/insider/" automate_uuid="2c9f2f03-2f1d-4a02-b326-56a95366273e">Insider Exclusives</a></li>
+<li><a href="https://www.infoworld.com/reviews/" automate_uuid="77089f69-381b-4635-812c-0da829cc6a9a">Reviews</a></li>
+<li><a href="https://www.infoworld.com/resources/" automate_uuid="fabc099d-55dd-4ab6-96e2-9cbd12117c75">Resources &amp; White Papers</a></li>
+</ul>
+</nav>
+<div class="fading-gradient"></div>
+<nav class="tools">
+<ul class="user">
+<li class="search-icon"><a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#search" id="search-btn" automate_uuid="1dd0c5c2-c49b-486f-8614-608bb43ee2cc"><i class="ss-icon">Search</i></a></li>
+</ul>
+<ul class="social">
+<li><a href="https://twitter.com/infoworld" itemprop="sameAs" rel="nofollow" target="_blank" onclick="brandFollowTrack(&#39;Twitter&#39;)" automate_uuid="04d34d57-b703-405b-ac52-fb3c6e66dd30"><i class="ss-icon ss-social-circle ss-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/company/164364" itemprop="sameAs" rel="nofollow" target="_blank" onclick="brandFollowTrack(&#39;LinkedIn&#39;)" automate_uuid="ac101ca9-5b9e-43d5-a9ce-020fd87715f9"><i class="ss-icon ss-social-circle brand ss-linkedin"></i></a></li>
+<li><a href="https://www.facebook.com/InfoWorld" itemprop="sameAs" rel="nofollow" target="_blank" onclick="brandFollowTrack(&#39;Facebook&#39;)" automate_uuid="d480ec63-4574-49f0-961e-921635d580a0"><i class="ss-icon ss-social-circle brand ss-facebook"></i></a></li>
+<li><a href="https://plus.google.com/100116140147692954063/posts" itemprop="sameAs" rel="publisher" target="_blank" onclick="brandFollowTrack(&#39;Google+&#39;)" automate_uuid="40f9912d-d317-4c92-87f2-6ae4ef45a4ff"><i class="ss-icon ss-social-circle brand ss-googleplus"></i></a></li>
+<li><a href="https://www.infoworld.com/index.rss" target="_blank" automate_uuid="8d8ff1e1-d95d-43b8-ad01-611d8b5a994c"><i class="ss-icon ss-social-circle ss-rss"></i></a></li>
+<li><a href="https://www.infoworld.com/newsletters/signup.html" automate_uuid="49a42e2f-c2e7-494e-a468-d8e58738fc6b"><i class="ss-icon ss-social-circle ss-mail"></i></a></li>
+<li class="more-social"><i class="ss-icon ss-ellipsis"></i></li>
+</ul>
+</nav>
+</section>
+</div>
+<div id="sticky-anchor"></div>
+<section id="sticky-head" class="main stick">
+<div class="wrapper">
+<div class="masthead">
+<button><i class="ss-icon ss-rows"></i></button>
+<a href="https://www.infoworld.com/" automate_uuid="da412b41-33ee-46e7-b3c0-c9a2d5e84b17"><span class="ir logo">infoworld</span></a>
+<!--
+	            	<img class="print-only" src="/www.idge.ifw/images/infoworld-logo-print.png">
+	            	-->
+<img class="print-only" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/infoworld-logo-print.png">
+</div>
+<div id="reading-tools-wrapper">
+<nav class="tools">
+<ul class="user">
+</ul>
+</nav>
+</div>
+<div class="insider-signin">
+<span class="signin-register" style="display: inline;">
+<a href="https://www.infoworld.com/learn-about-insider/" automate_uuid="6fb0449c-ba3f-4474-85ca-8e8e56df1308"><span class="insider"></span></a> <a href="javascript://" onclick="IDG.insiderReg.registerLinkEvent(&#39;insider-reg-signin&#39;)" class="js-open-modal signin" data-modal-id="insider-popup" automate_uuid="3fce1544-cd71-4296-bcab-93ebf8b49bc0">Sign In</a> <span class="divider">|</span> <a href="javascript://" onclick="IDG.insiderReg.registerLinkEvent(&#39;insider-reg-form-short&#39;)" class="js-open-modal register" data-modal-id="insider-popup" automate_uuid="69bb87f5-acfa-42f7-a916-be947c750941">Register</a>
+</span>
+<div id="welcome-message" class="insider-list" style="display: none;">
+<div id="insider-selector">
+<div id="insider-welcome" class="label"></div>
+<div class="stories">
+<div class="personalization">Hi<span id="person-first-name"></span>! Here are the latest Insider stories.</div>
+<ul>
+<li><a href="https://www.infoworld.com/article/3261548/database/cosmos-db-review-database-for-a-small-planet.html" automate_uuid="390fdb7e-0f57-4a35-bea9-012efdb4d95f">Cosmos DB review: Database for a small planet</a></li>
+<li><a href="https://www.infoworld.com/article/3261084/web-development/how-to-implement-background-processing-in-aspnet-core.html" automate_uuid="5ae54e20-256b-4671-bc1f-16cd297b1520">How to implement background processing in ASP.Net Core</a></li>
+<li><a href="https://www.infoworld.com/article/3257691/analytics/r-tutorial-how-to-reshape-data-in-r.html" automate_uuid="9c8f42b5-6492-404c-8d57-92da63868445">R tutorial: How to reshape data in R</a></li>
+<li><a href="https://www.infoworld.com/article/3259872/containers/docker-tutorial-get-started-with-docker-swarm-mode.html" automate_uuid="65f82782-b159-4fda-a908-2971c8f537cf">Docker tutorial: Get started with Docker swarm mode</a></li>
+</ul>
+<div class="sign-out-link">
+<a class="more-insider" href="https://www.infoworld.com/insider/" automate_uuid="1fca032a-e21b-4ec7-ba23-72793800e288">More Insider</a>
+<a class="sign-out" href="javascript://" onclick="IDG.insiderReg.logout()" automate_uuid="5c10c4d4-9544-4d3e-b3af-d8c338c8096a">Sign Out</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>$('.signin-register').hide();$('#welcome-message').hide();</script>
+</div>
+</section>
+<section class="tools-expand  ">
+<form class="search" id="search-form" action="https://www.infoworld.com/search">
+<label for="search-box">Search for</label>
+<input type="text" name="query" id="banner-search-term" value="" class="searchbox-input-class ui-autocomplete-input" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+<input type="submit" id="banner-search-submit" value="Go">
+<input type="hidden" name="contentType" value="article,resource">
+<div class="search-suggest">Suggestions for you</div>
+</form>
+<div class="user">
+<form>
+<label for="login-email">Insider email</label> <input id="login-email" type="text">
+</form>
+</div>
+<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="z-index: 1; display: none;"></ul></section>
+<div id="sticky-anchor-nav"></div>
+<nav id="sticky-nav" class="main stick" style="height: 622px; top: 52px;">
+<ul class="topnav">
+<li><a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="hasChildren notMobile" automate_uuid="1f03ca85-281c-440e-ba42-33a89817f411">Analytics<span class="ss-icon ss-navigatedown"></span></a>
+<ul class="subnav" style="display: none;">
+<li><a href="https://www.infoworld.com/category/analytics/" automate_uuid="5be62d42-8c7b-43f3-bd88-ba874f0690c1">All Analytics</a></li>
+<li><a href="https://www.infoworld.com/category/big-data/" automate_uuid="8bd93fe5-04a0-4b78-addd-5b0734344f2f">Big Data</a></li>
+<li><a href="https://www.infoworld.com/category/business-intelligence/" automate_uuid="af069d67-c6f5-456a-9b37-eb1a8fd80dd6">Business Intelligence</a></li>
+</ul>
+</li>
+<li><a href="https://www.infoworld.com/category/it-careers/" automate_uuid="fc0fd930-5722-4a70-a8c9-f3a9ceb739ef">Careers</a>
+</li>
+<li><a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="hasChildren notMobile" automate_uuid="1bb10c7a-fc9b-4d66-89ac-6f2f7122a5a8">Cloud Computing<span class="ss-icon ss-navigatedown"></span></a>
+<ul class="subnav" style="display: none;">
+<li><a href="https://www.infoworld.com/category/cloud-computing/" automate_uuid="9eb000ef-f5ca-4aee-a07a-e069995bc266">All Cloud Computing</a></li>
+<li><a href="https://www.infoworld.com/category/iaas/" automate_uuid="e5080f26-811c-46b0-b060-1a9d5378a851">IaaS</a></li>
+<li><a href="https://www.infoworld.com/category/paas/" automate_uuid="073847f6-8b68-4d94-8e02-91e602a8f632">PaaS</a></li>
+<li><a href="https://www.infoworld.com/category/saas/" automate_uuid="1c4ab360-6ba1-4508-a4c5-9d6963096db6">SaaS</a></li>
+</ul>
+</li>
+<li><a href="https://www.infoworld.com/category/collaboration/" automate_uuid="126f5574-3dad-4dd3-a1b0-0e71aceab9d1">Collaboration</a>
+</li>
+<li><a href="https://www.infoworld.com/category/containers/" automate_uuid="1fc0106b-aac5-40c3-8f34-d172008a776a">Containers</a>
+</li>
+<li><a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="hasChildren notMobile" automate_uuid="42744c82-3a50-4ba0-b7ac-9ad723c2696a">Data Centers<span class="ss-icon ss-navigatedown"></span></a>
+<ul class="subnav" style="display: none;">
+<li><a href="https://www.infoworld.com/category/data-center/" automate_uuid="0da9c1bc-f9a3-49fc-aaab-cbf52f86bb1b">All Data Centers</a></li>
+<li><a href="https://www.infoworld.com/category/devops/" automate_uuid="86df1ff9-a73f-4580-942b-aa512da430f6">Devops</a></li>
+<li><a href="https://www.infoworld.com/category/disaster-recovery/" automate_uuid="5e8e7f52-3323-4ccf-b83f-8af5974413b8">Disaster Recovery</a></li>
+<li><a href="https://www.infoworld.com/category/systems-management/" automate_uuid="370bd7fa-fa34-4d6f-8595-322bb5914317">Systems Management</a></li>
+</ul>
+</li>
+<li><a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="hasChildren notMobile" automate_uuid="07ecad4d-7384-4da3-9928-1062b553405d">Databases<span class="ss-icon ss-navigatedown"></span></a>
+<ul class="subnav" style="display: none;">
+<li><a href="https://www.infoworld.com/category/database/" automate_uuid="7148f624-a442-4017-9088-ab9d4e9808df">All Databases</a></li>
+<li><a href="https://www.infoworld.com/category/hadoop/" automate_uuid="3916a304-4bf6-48e8-973e-9d0198b5ce52">Hadoop</a></li>
+<li><a href="https://www.infoworld.com/category/nosql/" automate_uuid="b6acbe52-94e0-49f3-89e8-175b2ee4fe0c">NoSQL</a></li>
+</ul>
+</li>
+<li><a href="https://www.infoworld.com/category/hardware/" automate_uuid="f6cf4bb4-a7c4-4d7f-8bb9-a44528593d6a">Hardware</a>
+</li>
+<li><a href="https://www.infoworld.com/category/internet-of-things/" automate_uuid="49fc98b0-8cb3-4929-a2b5-b1d66527044c">Internet of Things</a>
+</li>
+<li><a href="https://www.infoworld.com/category/machine-learning/" automate_uuid="758afc0c-184f-44a4-9240-3f0cab542a9d">Machine Learning</a>
+</li>
+<li><a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="hasChildren notMobile" automate_uuid="9618d1b0-f2b9-4564-9351-631f485fa0a7">Mobile<span class="ss-icon ss-navigatedown"></span></a>
+<ul class="subnav" style="display: none;">
+<li><a href="https://www.infoworld.com/category/mobile-technology/" automate_uuid="807e4272-5389-4d23-b66e-9c5bbf1ec78f">All Mobile</a></li>
+<li><a href="https://www.infoworld.com/category/android/" automate_uuid="e4a4f427-bfbf-413f-ae3f-c43ae26561bf">Android</a></li>
+<li><a href="https://www.infoworld.com/category/mobile-apps/" automate_uuid="061b32e0-9671-45ba-82a1-a1c3acaabe7a">Mobile Apps</a></li>
+<li><a href="https://www.infoworld.com/category/mobile-development/" automate_uuid="262bcc4c-7244-48c6-9e00-48c3efb842c2">Mobile Development</a></li>
+<li><a href="https://www.infoworld.com/category/ios/" automate_uuid="39f829ce-e615-4dd8-94e9-dfc1e261f8a4">iOS</a></li>
+</ul>
+</li>
+<li><a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="hasChildren notMobile" automate_uuid="45d61d7b-d22a-4b0a-8205-59a1f2435b80">Networking<span class="ss-icon ss-navigatedown"></span></a>
+<ul class="subnav" style="display: none;">
+<li><a href="https://www.infoworld.com/category/networking/" automate_uuid="ce1dd5c7-7856-4713-923e-7acf0df58dad">All Networking</a></li>
+<li><a href="https://www.infoworld.com/category/internet/" automate_uuid="0ba3ecf7-8fa3-42ed-9dc7-04db12db2884">Internet</a></li>
+<li><a href="https://www.infoworld.com/category/sdn/" automate_uuid="783e5364-474a-454f-a34c-421427ac9fb6">SDN</a></li>
+<li><a href="https://www.infoworld.com/category/wireless-local-area-network/" automate_uuid="bca6e279-d86b-47d9-b812-78d20316b656">Wi-Fi</a></li>
+</ul>
+</li>
+<li><a href="https://www.infoworld.com/category/open-source-tools/" automate_uuid="50a0d0c2-a6d3-4efe-ac97-72d598fd28c9">Open Source</a>
+</li>
+<li><a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="hasChildren notMobile" automate_uuid="843ae4d4-eb75-4174-9f1b-ba1c3ef6e146">Operating Systems<span class="ss-icon ss-navigatedown"></span></a>
+<ul class="subnav" style="display: none;">
+<li><a href="https://www.infoworld.com/category/operating-systems/" automate_uuid="f27608b0-be0e-4d2e-98f1-3f4c4b4b498c">All Operating Systems</a></li>
+<li><a href="https://www.infoworld.com/category/linux/" automate_uuid="aeab68bb-4f0b-46f4-811e-9b8d4ee13169">Linux</a></li>
+<li><a href="https://www.infoworld.com/category/mac-os-x/" automate_uuid="57b78446-dd23-4455-abdc-dee1376cebdd">MacOS</a></li>
+<li><a href="https://www.infoworld.com/category/microsoft-windows/" automate_uuid="d2e8d56a-cd0a-4881-b0d5-e14f62679a0f">Windows</a></li>
+<li><a href="https://www.infoworld.com/category/windows-server/" automate_uuid="454a3679-8eb7-4616-84df-9c3ef7db68e7">Windows Server</a></li>
+</ul>
+</li>
+<li><a href="https://www.infoworld.com/category/security/" automate_uuid="53040751-b618-408e-831d-9764c7488ecf">Security</a>
+</li>
+<li><a href="https://www.infoworld.com/category/software/" automate_uuid="0a51ed80-15a7-4870-b0ca-b5b8e8e36d37">Software</a>
+</li>
+<li><a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="hasChildren notMobile" automate_uuid="0dfa3522-8696-4941-ac37-87b75152422b">Software Development<span class="ss-icon ss-navigatedown"></span></a>
+<ul class="subnav" style="display: none;">
+<li><a href="https://www.infoworld.com/category/application-development/" automate_uuid="727959f2-e6b4-4dbc-b201-eac09c5e81ab">All Software Development</a></li>
+<li><a href="https://www.infoworld.com/category/java/" automate_uuid="c6f6fa2b-9920-4e30-a270-a725fa8ddd26">Java</a></li>
+<li><a href="https://www.infoworld.com/category/javascript/" automate_uuid="85395a60-1fd0-4c2e-a5de-ec8b69358420">JavaScript</a></li>
+<li><a href="https://www.infoworld.com/category/node-js/" automate_uuid="782e5057-5bb4-4076-ac3f-8b096d8eb1c7">Node.js</a></li>
+</ul>
+</li>
+<li><a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="hasChildren notMobile" automate_uuid="c1a65ee7-ea1b-4b91-8720-f0ece49831f4">Storage<span class="ss-icon ss-navigatedown"></span></a>
+<ul class="subnav" style="display: none;">
+<li><a href="https://www.infoworld.com/category/storage/" automate_uuid="2b4d462d-32ec-42c1-a549-4dafa3a3f954">All Storage</a></li>
+<li><a href="https://www.infoworld.com/category/web-browsers/" automate_uuid="cc17e1ac-fe24-4cb7-b49e-66137db19388">Browsers</a></li>
+<li><a href="https://www.infoworld.com/category/office-software/" automate_uuid="b8d01ebf-003f-4aa6-bdec-f71867428e5e">Office Software</a></li>
+</ul>
+</li>
+<li><a href="https://www.infoworld.com/category/virtualization/" automate_uuid="c2837ff4-4f09-4bfa-baae-45f3d8ac9861">Virtualization</a>
+</li>
+</ul>
+<ul class="secondary topnav">
+<li><a href="https://www.infoworld.com/blogs" automate_uuid="b1742c80-bfa5-443d-934b-a02f4201e34a">Blogs</a></li>
+<li><a href="https://www.infoworld.com/reviews/" automate_uuid="4112bf35-1ca8-4a62-9b10-3ff2833f9880">Reviews</a></li>
+<li><a href="https://www.infoworld.com/insider/" automate_uuid="c4908dee-275b-4af1-8f27-09955f0137e6">Insider articles</a></li>
+<li><a href="https://www.infoworld.com/newsletters/signup.html" automate_uuid="0053be8e-ea76-4e56-9914-e9c2f3d09e17">Newsletters</a></li>
+<li><a href="https://www.infoworld.com/video/" automate_uuid="8192f57c-1128-4c00-9484-700799e88e5b">Video</a></li>
+<li><a href="https://www.infoworld.com/resources/" automate_uuid="9eeb696b-f8e8-40bb-9f7f-656da98b8236">Resources/White Papers</a></li>
+</ul>
+</nav>
+<script>if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('div.insider-signin').prependTo('section.topics nav.tools');}</script>
+<script>$(document).ready(function(){if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$("nav ul li a.hasChildren").attr("href","#").addClass('notMobile');$('nav#sticky-nav ul.secondary').addClass('topnav');}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$("nav#sticky-nav > ul").switchClass("topnav","primary");}});</script>
+<script>if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('#sticky-anchor, section.main, section.topics, section.tools-expand, #sticky-anchor-nav, nav.main').insertBefore($('#banner .ad'));$(document).ready(function(){$('#banner section.tools-expand').addClass('top-margin');});}</script>
+</header>
+<script>$(document).ready(function(){$('body').addClass('insider-plus');var headerHeight=$('header#banner').height();$('header#banner nav#sticky-nav.main.no-stick').css("top",headerHeight);if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){var stickyHeaderHeight=$('section.topics').height()+$('#sticky-head.main').height();stickyHeaderHeight=stickyHeaderHeight-8;}var supportsOrientationChange="onorientationchange"in window,orientationEvent=supportsOrientationChange?"orientationchange":"resize";if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){window.addEventListener(orientationEvent,function(){var top=$('section#sticky-head.main').offset().top;if(top<170){top=0;}else{top=top-50;}if(window.orientation==90||window.orientation==-90){window.scrollTo(0,top);}},false);}if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)&&$thm.deviceHeight()<768){if($('html').hasClass('touch')){$('#insider-popup.modal-box .modal-body').addClass('short');}else{$('#insider-popup.modal-box .modal-body').addClass('short-desk');}}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){window.addEventListener(orientationEvent,function(){var top=$('section#sticky-head.main').offset().top;if(top<50){top=5;}else{top=top-40;}if(window.orientation==90||window.orientation==-90){window.scrollTo(0,top);}},false);}var ua=navigator.userAgent.toLowerCase();var isAndroid=ua.indexOf("android")>-1;window.addEventListener(orientationEvent,function(){if(isAndroid&&(screen.width==600||screen.width==960)){location.reload(true);}},false);if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.desktop)&&!$('html').hasClass('touch')){$("ul.social li.more-social").mouseenter(function(){$('ul.social > li').addClass('display-icon');});$("ul.social").mouseleave(function(){$('ul.social > li').removeClass('display-icon');});};if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)&&$('html').hasClass('touch')){$("ul.social li.more-social").click(function(){$('ul.social > li').toggleClass('display-icon');});};$('.searchbox-input-class').each(function(){$(this).change(function(){var qStr=$(this).val();if($(this).val().indexOf('@')!=-1){qStr=qStr.replace(/@/g,' ');$(this).val(qStr);}});});});function sticky_relocate(){var headerHeight=$('header#banner').height();var winHeight=$(window).height();if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.wide)){winHeight=winHeight-40;if(window.orientation==90||window.orientation==-90){winHeight=winHeight+50;}}else if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)&&!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.wide)){winHeight=winHeight+40;}else{winHeight=winHeight+10;}$('#banner nav#sticky-nav.main').css("height",winHeight);if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){var window_top=$(window).scrollTop();var div_top=$('#sticky-anchor').offset().top;if(window_top>div_top){$('#sticky-head').addClass('stick');$('#page-wrapper').addClass('top-pad');$('#banner .ad').addClass('top-margin');}else{$('#sticky-head').removeClass('stick');$('#page-wrapper').removeClass('top-pad');$('#banner .ad').removeClass('top-margin');}}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('section.topics').addClass('stick-topics');$('#sticky-head').addClass('stick-head');$('#page-wrapper').addClass('top-pad');$('#banner .ad').addClass('top-margin');$('#banner section.tools-expand').addClass('search');var window_top=$(window).scrollTop();var div_top=$('#sticky-anchor').offset().top+30;if(window_top>div_top){$('#sticky-head').addClass('stick');$('.topics.stick-topics, #search-form').addClass('remove');$('li.search-icon').fadeOut("fast");}else{$('#sticky-head').removeClass('stick');$('.topics.stick-topics, #search-form').removeClass('remove');$('li.search-icon').fadeIn("fast");}}if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){if($('#sticky-head').hasClass('stick')){var stickyHeaderHeight=$('section.main').height();stickyHeaderHeight=52;$('header#banner nav#sticky-nav.main').css("top",stickyHeaderHeight);$('#sticky-nav').addClass('stick');$('#sticky-nav').removeClass('no-stick');}else{stickyHeaderHeight=$('header#banner').height();$('header#banner nav#sticky-nav.main').css("top",stickyHeaderHeight);$('#sticky-nav').removeClass('stick');$('#sticky-nav').addClass('no-stick');}}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){var stickyHeaderHeight=$('section.topics').height()+$('#sticky-head.main.stick-head').height();stickyHeaderHeight=stickyHeaderHeight-8;$('header#banner nav#sticky-nav.main').css("top",stickyHeaderHeight);$('#sticky-nav').addClass('stick');if($('#sticky-head').hasClass('stick')){$('#sticky-head.stick').siblings('#sticky-nav').addClass('nav-stick');$('#sticky-head').siblings('#sticky-nav').removeClass('no-stick');}else{$('#sticky-head').siblings('#sticky-nav').removeClass('nav-stick');$('#sticky-head').siblings('#sticky-nav').addClass('no-stick');}}}$(function(){$(window).scroll(sticky_relocate);sticky_relocate();});</script>
+<div id="insider-popup" class="modal-box " style="top: 10px; left: 0px;">
+<div class="insider-modal-wrapper">
+<div class="modal-header-title">
+<div class="modal-banner-insider"><span class="insider"></span></div>
+<div class="modal-close close">×</div>
+</div>
+<div class="modal-body short-desk">
+<script>$(document).ready(function(){$('a[data-link]').click(function(){var dataLink=$(this).attr('data-link');var toKeep='div[data-link="'+dataLink+'"]';$('div[data-link]').not(toKeep).hide();if($(this).hasClass('link-transition')){$(toKeep).fadeIn(800);}else{$(toKeep).show();}return false;});});</script>
+</div>
+<div class="modal-footer">
+<div class="modal-close close-btn">Close</div>
+</div>
+</div>
+</div>
+<script>$(document).ready(function(){var appendthis=("<div class='modal-overlay modal-close'></div>");if($thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('.modal-box').css({top:10,left:0});}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('.modal-box').height($(document).height());$('.modal-box').css('top','0');}var userAg=navigator.userAgent;$('a[data-modal-id]').click(function(e){e.preventDefault();$('body').append(appendthis);$('.modal-overlay').fadeTo(500,0.9);$('.modal-overlay').height($(document).height());var modalBox=$(this).attr('data-modal-id');if($(".modal-box").hasClass('triggered')||(userAg.indexOf("Firefox")!=-1)){$('#'+modalBox).fadeIn($(this).data());}else{if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('#'+modalBox).toggle('slide',{direction:'up'},800);}else{$('#'+modalBox).toggle('slide',{direction:'left'},600);}}if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$("html, body").animate({scrollTop:0},700);$('a.btn.continue-on').click(function(){$('html, body').animate({scrollTop:0},500);});return false;}if(navigator.userAgent.match(/(iPad)/)){$("html, body").animate({scrollTop:0},500);}});$(".modal-close, .modal-overlay").click(function(){$('.select2-drop').css('display','none');$(".modal-overlay").fadeOut(500,function(){$(".modal-overlay").remove();});if($(".modal-box").hasClass('triggered')||(userAg.indexOf("Firefox")!=-1)){$(".modal-box").fadeOut(500);}else{if(!$thm.deviceWidthAtLeast($thm.deviceBreakpoints.tablet)){$('.modal-box').toggle('slide',{direction:'up'},800);}else{$('.modal-box').toggle('slide',{direction:'left'},600);}}});});</script>
+<!-- END PAGE HEADER -->
+<div id="page-wrapper" class="page-wrapper top-pad">
+<div id="skinAdTarget"></div>
+<section role="main">
+<article itemscope="" itemtype="http://schema.org/Article">
+<div class="ticker-ad ad">
+<div id="ticker" class=" ad-container" data-google-query-id="CJCr3Y_M69kCFdXdYgodiP8EMA">
+<div id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_4__container__" style="border: 0pt none; display: inline-block; width: 970px; height: 250px;"><iframe frameborder="0" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/container.html" id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_4" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="970" height="250" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+<script type="text/javascript">IDG.GPT.addDisplayedAd("ticker","true");$('#ticker').responsiveAd({screenSize:'971 1115',scriptTags:[]});IDG.GPT.log("Creating ad: ticker - [971 1115]");</script>
+</div>
+<!-- Events Header -->
+<!-- //end Events Header -->
+<header class="cat">
+<nav class="breadcrumbs horiz">
+<ul itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+<li><a href="https://www.infoworld.com/" itemprop="url" automate_uuid="88e4453b-dc34-47dd-8df3-59fd89e1b576"><span itemprop="title">Home</span></a></li>
+<li><a href="https://www.infoworld.com/category/application-development/" itemprop="url" automate_uuid="25a11251-67be-4527-bd0b-159c4120f9d8"><span itemprop="title">Software Development</span></a></li>
+</ul>
+</nav>
+<div class="category"></div>
+<h1 itemprop="headline">Beyond Jenkins: 7 devops tools</h1>
+<section class="deck viewability">
+<h3 itemprop="description">These alternatives to Jenkins offer unique capabilities for automating software integration and delivery</h3>
+</section>
+<div class="cat-social">
+<div id="sharer" class="cat sidecar show">
+<ul id="share-tool" class="expand">
+<li class="sosh">
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F3070454%2Fapplication-development%2Fbeyond-jenkins-7-devops-tools.html&amp;via=infoworld&amp;text=Beyond+Jenkins%3A+7+devops+tools" target="_blank" onclick="sharingTrack(&#39;Twitter-vert&#39;, &#39;twshare&#39;)" automate_uuid="ccf79ae9-13f7-48ef-9c46-a605d36a815b">
+<img class="sidecar-icon" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/twitter.svg">
+</a>
+</li>
+<li class="sosh">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F3070454%2Fapplication-development%2Fbeyond-jenkins-7-devops-tools.html" target="_blank" onclick="sharingTrack(&#39;Facebook-vert&#39;, &#39;fblike&#39;)" automate_uuid="cde6088c-0f8a-4663-8332-9c834cbc9939">
+<img class="sidecar-icon" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/facebook.svg">
+</a>
+</li>
+<li class="sosh">
+<a href="http://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F3070454%2Fapplication-development%2Fbeyond-jenkins-7-devops-tools.html&amp;title=Beyond+Jenkins%3A+7+devops+tools" target="_blank" onclick="sharingTrack(&#39;LinkedIn-vert&#39;)" automate_uuid="abf98e47-bc71-491d-a50f-795b602c6712">
+<img class="sidecar-icon" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/linkedin.svg">
+</a>
+</li>
+<li class="sosh">
+<a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F3070454%2Fapplication-development%2Fbeyond-jenkins-7-devops-tools.html" target="_blank" onclick="sharingTrack(&#39;GooglePlus-vert&#39;, &#39;googplus&#39;)" automate_uuid="8e391a39-c46c-47ad-bb17-9d791ee01e62">
+<img class="sidecar-icon" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/gplus.svg">
+</a>
+</li>
+<li class="sosh hide">
+<a href="http://reddit.com/submit?url=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F3070454%2Fapplication-development%2Fbeyond-jenkins-7-devops-tools.html&amp;title=Beyond+Jenkins%3A+7+devops+tools" target="_blank" onclick="sharingTrack(&#39;Reddit-vert&#39;)" automate_uuid="b352686f-1151-499c-8711-a2f4fd2154c3">
+<img class="sidecar-icon" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/reddit.svg">
+</a>
+</li>
+<li class="sosh hide">
+<a href="http://www.stumbleupon.com/submit?url=https%3A%2F%2Fwww.infoworld.com%2Farticle%2F3070454%2Fapplication-development%2Fbeyond-jenkins-7-devops-tools.html" target="_blank" onclick="sharingTrack(&#39;ShareStumbleupPrint-vert&#39;)" automate_uuid="f65f70b2-242e-47da-889a-5a9cc4613e03">
+<img class="sidecar-icon" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/stumbleupon.svg">
+</a>
+</li>
+<li class="sosh hide">
+<a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#email" id="email-icon" automate_uuid="e111d07a-e110-4ce9-9361-8cbb37396709">
+<img class="sidecar-icon" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/mail.svg">
+</a>
+</li>
+<li class="sosh hide print">
+<a href="javascript:window.print();" automate_uuid="5d993ef8-8c7c-4f2f-80b4-aff4d86b7d32">
+<img class="sidecar-icon" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/print.svg">
+</a>
+</li>
+<li class="more">
+<div class="more-icon" onclick="document.getElementById(&#39;share-tool&#39;).className = &#39;expand&#39;;"></div>
+</li>
+</ul>
+</div>
+<script type="text/javascript">var isValidEmailAddress=isValidEmailAddress||function(emailAddress){var pattern=new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,5}$/i);return pattern.test(emailAddress);};function encodeQueryData(params){var ret=[];for(var paramKey in params){ret.push(encodeURIComponent(paramKey)+"="+encodeURIComponent(params[paramKey]));}return ret.join("&");}function bindEmailModal(){$('#emailModal').on("click",".close-btn",function(event){event.preventDefault();$('#emailModal').hide();$("#emailModal .eml-friend").show();$(".eml-friend-success").hide();$(".eml-friend-error").hide();$('#emailModal').fadeOut(200);$('#email-to').val('');$('#email-from').val('');$('#name').val('');$('#personalization').val('');$('#eml-from-address-message').html("");$('#eml-to-address-message').html("");$('#eml-friend-captcha-message').html("");});$('#emailModal').on("submit","form",function(event){event.preventDefault();var $form=$(this);var action=$form.attr('action');var formData=$form.serialize();var emailFrom=$('#email-from').val();var emailTo=$('#email-to').val();var uresponse=$('#g-recaptcha-response').val();$('#eml-from-address-message').html("");$('#eml-to-address-message').html("");$('#eml-friend-captcha-message').html("");if(isValidEmailAddress(emailFrom)&&isValidEmailAddress(emailTo)&&uresponse!=""){var eloquaParam={AssetCountforCurrentCampaign:"1",AssetName:"",AssetTopic:"",AssetType:"",BuyingCycle:"",C_Address1:"",C_Address2:"",C_BusPhone:"",C_City:"",C_Company_Size1:"",C_Country:"",C_EmailAddress:"",C_FirstName:"",C_Industry1:"",C_Job_Role1:"",C_LastName:"",C_State_Prov:"",C_Zip_Postal:"",ClientName:"",ProgramName:"",brand:"",elqFormName:"CentralRegistrationMasterForm",formId:"3062313",elqSiteId:1856,elqCustomerGUID:elqCustomerGUID,elqCookieWrite:0,friend_email:emailFrom,friend_article_title:"Beyond Jenkins: 7 devops tools",friend_taxo:"Software Development",friend_source:"InfoWorld",friend_article_url:"https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html",device_platform:navigator.userAgent};$.ajax("https://secure.p01.eloqua.com/e/f2.aspx",{type:'GET',data:eloquaParam,success:function(data,textStatus,xhr){},error:function(xhr,textStatus,errorThrown){}});var eloquaParamMini={elqCustomerGUID:elqCustomerGUID,friend_taxo:"Software Development",friend_source:"InfoWorld",device_platform:navigator.userAgent};formData+="&"+encodeQueryData(eloquaParamMini);$.ajax(action,{type:'POST',data:formData,success:function(data,textStatus,xhr){$("#emailModal .eml-friend").hide();$(".eml-friend-success").fadeIn(800);},error:function(xhr,textStatus,errorThrown){$("#emailModal .eml-friend").hide();$(".eml-friend-error").fadeIn(800);}});}else{if(uresponse==""){$('#eml-friend-captcha-message').html("Please verify you're not a robot!");}if(!isValidEmailAddress(emailTo)){$('#eml-to-address-message').html("Please enter a valid email address.");}if(!isValidEmailAddress(emailFrom)){$('#eml-from-address-message').html("Please enter a valid email address.");}}});}$(document).ready(function(){$(document).on("click","#email-icon",function(event){event.preventDefault();bindEmailModal();sharingTrack('Email-vert');$('#emailModal').fadeIn(800);});});</script>
+<div class="modal eml-friend-wrapper" id="emailModal" style="display:none;">
+<form class="eml-friend" action="https://www.infoworld.com/eloquaemail/article?eloqua=true&amp;id=3070454">
+<input type="hidden" name="title" value="Beyond Jenkins: 7 devops tools">
+<input type="hidden" name="url" value="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html">
+<a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="close-btn" automate_uuid="737d2fd7-bbe8-4bc2-a105-d90c890113ed"><i class="ss-icon ss-delete"></i></a>
+<h3>Email a friend</h3>
+<div class="input-row">
+<div id="eml-to-address-message" class="error-msg"></div>
+<h4 class="input-label">To</h4>
+<input id="email-to" value="" placeholder="Email address (required)" type="email" name="recipients" tabindex="1">
+<p class="addl-text">Use commas to separate multiple email addresses</p>
+</div>
+<hr>
+<div class="input-row">
+<div id="eml-from-address-message" class="error-msg"></div>
+<h4 class="input-label">From</h4>
+<input id="name" value="" placeholder="Name (optional)" type="text" name="name" tabindex="2">
+</div>
+<div class="input-row">
+<input id="email-from" value="" placeholder="Email address (required)" type="email" name="sender" tabindex="3">
+</div>
+<div class="input-row">
+<textarea name="message" placeholder="Check out this article I found on InfoWorld." id="personalization" tabindex="4"></textarea>
+</div>
+<hr>
+<div class="input-row">
+<div id="eml-friend-captcha-message" class="error-msg"></div>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/api.js.download" async="" defer=""></script>
+<div class="g-recaptcha" data-sitekey="6LczmkcUAAAAANEO7J277KwH6Kzp6BEQjPTWP4S4"><div style="width: 304px; height: 78px;"><div><iframe src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/anchor.html" width="304" height="78" role="presentation" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div>
+</div>
+<hr>
+<div class="submit">
+<input type="submit" value="Send" class="input-submit" tabindex="5">
+<a href="https://www.infoworld.com/about/privacy.html" class="submit-privacy" target="_blank" automate_uuid="60a64f0c-2cb0-4a30-b60c-9cf4ee201878">Privacy Policy</a>
+</div>
+</form>
+<div class="eml-ty eml-friend-success" style="display:none;">
+<a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="close-btn" automate_uuid="cf56bc59-5945-4f70-a5b6-a6aca998553d"><i class="ss-icon ss-delete"></i></a>
+<h3>Thank you</h3>
+<p class="msg-sent">Your message has been sent.</p>
+</div>
+<div class="eml-friend-error" style="display:none;">
+<a href="https://www.infoworld.com/article/3070454/application-development/beyond-jenkins-7-devops-tools.html#" class="close-btn" automate_uuid="f1dfc025-8b2d-4ea2-b499-a5d094a965fa"><i class="ss-icon ss-delete"></i></a>
+<h3>Sorry</h3>
+<p class="msg-sent">There was an error emailing this page.</p>
+</div>
+</div>
+</div>
+<div class="cat byline vcard author with-image">
+<div class="byline-wrapper">
+<p class="name" itemscope="" itemtype="http://schema.org/Person" itemprop="author">
+<a href="https://www.infoworld.com/author/Paul-Krill/" rel="author" title="Paul Krill" automate_uuid="401d5c24-80fb-4cbe-8f5c-81ed9bef5b3d"><img class="bylineImage  imgId100356327 " src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/paulkrill_crop-100356327-byline.jpg" width="34" alt="Paul Krill" itemprop="image"></a>
+<span class="by">By </span><span class="fn" itemprop="name"><a rel="author" itemprop="url" href="https://www.infoworld.com/author/Paul-Krill/" automate_uuid="a4d5696c-0541-458a-8d11-7eb1c57d971d"><span itemprop="name">Paul Krill</span></a></span>
+</p>
+<p class="dateline">
+Editor at Large,
+<span itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization"><span class="publisher" itemprop="name">InfoWorld</span><meta itemprop="logo" content="https://idge.staticworld.net/ifw/IFW_logo_social_300x300.png"></span> <span class="divider break">|</span>
+<span class="pub-date" itemprop="datePublished" content="2016-05-19T03:00-0700">May 19, 2016
+</span>
+</p>
+</div>
+</div>
+<div class="ad viewability">
+<div id="topleaderboard" class=" ad-container" data-google-query-id="CO-F3o_M69kCFUrkZAodtzkAyw">
+<div id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_3__container__" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;"><iframe frameborder="0" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/container(1).html" id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_3" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+<script type="text/javascript">IDG.GPT.addDisplayedAd("topleaderboard","true");$('#topleaderboard').responsiveAd({screenSize:'971 1115',scriptTags:[]});IDG.GPT.log("Creating ad: topleaderboard - [971 1115]");</script>
+</div>
+</header>
+<figure itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject" class="hero-img">
+<meta itemprop="representativeOfPage" content="1">
+<meta itemprop="height" content="413">
+<meta itemprop="width" content="620">
+<img src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/marketing-automation-100638792-primary.idge.jpeg" alt="Beyond Jenkins: 7 devops tools" itemprop="contentUrl">
+<figcaption>
+<span class="credit" itemprop="copyrightHolder">
+Stockbyte/Thinkstock
+</span>
+</figcaption>
+</figure>
+<section class="epo cat-narrow" id="drr-top-ad">
+<!-- Related -->
+<div class="related-promo-wrapper">
+<div class="promo apart">
+<div class="hed">More like this</div>
+<ul class="">
+<li class="clearfix with-image">
+<a href="https://www.infoworld.com/article/3060921/application-development/jenkins-2-focuses-on-configuration-and-security.html#tk.drr_mlt" automate_uuid="dae7e6a0-ac4e-4d79-bd16-934c31530246"><img class="carousel.idgeImage  imgId100589072 " src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/software_development-100589072-carousel.idge.jpg" alt="software development" itemprop="image"></a>
+<div class="item">
+<div class="title"><a href="https://www.infoworld.com/article/3060921/application-development/jenkins-2-focuses-on-configuration-and-security.html#tk.drr_mlt" automate_uuid="6444fe87-ec56-4422-925f-f8697449211e">Jenkins 2 addresses ease and security, not scalability</a></div>
+</div>
+</li>
+<li class="clearfix with-image">
+<a href="https://www.infoworld.com/article/3074237/application-development/bitbuckets-pipelines-turns-up-the-pressure-on-github-and-gitlab.html#tk.drr_mlt" automate_uuid="e3dd07de-450a-4426-9921-4727728d13f9"><img class="carousel.idgeImage  imgId100265496 " src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/pipeline-160547201-100265496-carousel.idge.jpg" alt="pipeline 160547201" itemprop="image"></a>
+<div class="item">
+<div class="title"><a href="https://www.infoworld.com/article/3074237/application-development/bitbuckets-pipelines-turns-up-the-pressure-on-github-and-gitlab.html#tk.drr_mlt" automate_uuid="457ce463-2a66-4f88-b452-9e6500b5d74c">Bitbucket’s Pipelines turns up the pressure on GitHub and GitLab</a></div>
+</div>
+</li>
+<li class="clearfix with-image">
+<a href="https://www.infoworld.com/article/3046038/application-development/why-jenkins-is-becoming-the-engine-of-devops.html#tk.drr_mlt" automate_uuid="07dad99d-5c36-44c1-bf29-21a2659a096a"><img class="carousel.idgeImage  imgId100540340 " src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/dev-tools_9-100540340-carousel.idge.jpg" alt="development tools cloud measure architecture" itemprop="image"></a>
+<div class="item">
+<div class="title"><a href="https://www.infoworld.com/article/3046038/application-development/why-jenkins-is-becoming-the-engine-of-devops.html#tk.drr_mlt" automate_uuid="68648f4b-3e94-45e0-8e62-48c00259e9a1">Why Jenkins is becoming the engine of devops</a></div>
+</div>
+</li>
+<li class="clearfix with-image">
+<a class="play" href="https://www.infoworld.com/video/85715/tech-talk-highs-and-lows-of-a-developers-career#tk.drr_mlt" automate_uuid="2d3fffca-973c-4321-a217-5a06a0a0dfc5"><i class="ss-play"></i></a>
+<a href="https://www.infoworld.com/video/85715/tech-talk-highs-and-lows-of-a-developers-career#tk.drr_mlt" automate_uuid="37747a36-faba-439b-bd6c-babed0f680d6"><img class="small.3x2Image  imgId100751836 " src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/developer.00_00_38_22.still001-100751836-small.3x2.jpg" alt="developer.00 00 38 22.still001" itemprop="image"></a>
+<div class="item">
+<div class="item-eyebrow">Video</div>
+<div class="title"><a href="https://www.infoworld.com/video/85715/tech-talk-highs-and-lows-of-a-developers-career#tk.drr_mlt" automate_uuid="6111256c-333c-4f5a-9fc2-d7d0d1a59da2">Tech Talk: Highs and lows of a developer's career </a></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ad top-ad">
+<div id="topimu" class="adunit ad-container" data-google-query-id="CIKc3Y_M69kCFQqAYgodugcMMg">
+<div id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_5__container__" style="border: 0pt none; display: inline-block; width: 300px; height: 600px;"><iframe frameborder="0" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/container(2).html" id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_5" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="600" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+<script type="text/javascript">if($(window).width()>=930){IDG.GPT.addDisplayedAd("topimu","true");$('#topimu').responsiveAd({screenSize:'971 1115',scriptTags:[]});IDG.GPT.log("Creating ad: topimu - [971 1115]");}</script>
+</div>
+<div class="apart ad lazyload_ad_article"><code type="text/javascript"><!--IDG.GPT.IMUCounter = IDG.GPT.IMUCounter + 1;IDG.GPT.addDisplayedAd(IDG.GPT.getIMUSlotName(), "true");document.write('<div id="' +IDG.GPT.getIMUSlotName() + '" class="ad-container">');IDG.GPT.defineGoogleTagSlot(IDG.GPT.getIMUSlotName(), [[300,250],[300,600]]);document.write('</div>');$('#' + IDG.GPT.getIMUSlotName()).responsiveAd({screenSize:'971 1115', scriptTags: []});if (Object.keys(IDG.GPT.companions).length > 0 || IDG.GPT.disableInitialLoad) { IDG.GPT.refreshAd(IDG.GPT.getIMUSlotName());}//--></code><div class="wrapAd"><div id="imu2" class="ad-container" data-google-query-id="CJr2pZTM69kCFcyAfgod22AMBg"><div id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_7__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_7" title="3rd party ad content" name="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_7" width="300" height="600" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" data-integralas-id-cfdb6ea7-c362-dd2c-65ee-d5007c5d4ea6="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/saved_resource.html"></iframe></div></div></div></div><div class="apart ad lazyload_ad_article"><code type="text/javascript"><!--IDG.GPT.IMUCounter = IDG.GPT.IMUCounter + 1;IDG.GPT.addDisplayedAd(IDG.GPT.getIMUSlotName(), "true");document.write('<div id="' +IDG.GPT.getIMUSlotName() + '" class="ad-container">');IDG.GPT.defineGoogleTagSlot(IDG.GPT.getIMUSlotName(), [[300,250],[300,600]]);document.write('</div>');$('#' + IDG.GPT.getIMUSlotName()).responsiveAd({screenSize:'971 1115', scriptTags: []});if (Object.keys(IDG.GPT.companions).length > 0 || IDG.GPT.disableInitialLoad) { IDG.GPT.refreshAd(IDG.GPT.getIMUSlotName());}//--></code></div><div class="apart ad lazyload_ad_article"><code type="text/javascript"><!--IDG.GPT.IMUCounter = IDG.GPT.IMUCounter + 1;IDG.GPT.addDisplayedAd(IDG.GPT.getIMUSlotName(), "true");document.write('<div id="' +IDG.GPT.getIMUSlotName() + '" class="ad-container">');IDG.GPT.defineGoogleTagSlot(IDG.GPT.getIMUSlotName(), [[300,250],[300,600]]);document.write('</div>');$('#' + IDG.GPT.getIMUSlotName()).responsiveAd({screenSize:'971 1115', scriptTags: []});if (Object.keys(IDG.GPT.companions).length > 0 || IDG.GPT.disableInitialLoad) { IDG.GPT.refreshAd(IDG.GPT.getIMUSlotName());}//--></code></div><div id="drr-mod-0">
+<div class="insider-promo-wrapper not-nsdr drr" data-placement-id="drr-mod-0">
+<div class="promo apart">
+<div class="insider-both">
+<div class="other-insider">
+<div class="insider-module-title">
+<div class="hed">Related Articles</div>
+</div>
+<ul>
+<li class="clearfix">
+<div class="sized-img"><a href="https://www.infoworld.com/article/3261084/web-development/how-to-implement-background-processing-in-aspnet-core.html" automate_uuid="a24c6ae3-9b44-4891-8933-cdd2c307d624"><img class="smallImage  imgId100609702 " src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/thinkstockphotos-89673858-100609702-small.jpg" alt="abstract traffic and circuitry background in red and green" itemprop="image"></a></div>
+<div class="hed"><a href="https://www.infoworld.com/article/3261084/web-development/how-to-implement-background-processing-in-aspnet-core.html#tk.ifw_nsdr_ndxprmomod" automate_uuid="260cc44d-ace7-4788-bfd2-381a3081afa0">How to implement background processing in ASP.Net Core</a></div>
+</li>
+<li class="clearfix">
+<div class="sized-img"><a href="https://www.infoworld.com/article/3261548/database/cosmos-db-review-database-for-a-small-planet.html" automate_uuid="5feed46f-44e4-4b4f-adf5-a19c5772b38b"><img class="small.3x2Image  imgId100751815 " src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/nasa_apollo8_dec24_1968_earthrise_as8-14-2383hr_3x2-100751815-small.3x2.jpg" alt="NASA Apollo 8 - December 24, 1968 - Earthrise" itemprop="image"></a></div>
+<div class="hed"><a href="https://www.infoworld.com/article/3261548/database/cosmos-db-review-database-for-a-small-planet.html#tk.ifw_nsdr_ndxprmomod" automate_uuid="9587063c-0e3d-4779-b554-4c0093516283">Cosmos DB review: Database for a small planet</a></div>
+</li>
+<li class="clearfix">
+<div class="sized-img"><a href="https://www.infoworld.com/article/3257691/analytics/r-tutorial-how-to-reshape-data-in-r.html" automate_uuid="56320bc7-dc4c-4f25-bf47-f831d9430c53"><img class="small.3x2Image  imgId100749988 " src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/security_vulnerability_data_leak_breach_thinkstock_670591400-100749988-small.3x2.jpg" alt="leaking binary data pouring through one&#39;s hands" itemprop="image"></a></div>
+<div class="hed"><a href="https://www.infoworld.com/article/3257691/analytics/r-tutorial-how-to-reshape-data-in-r.html#tk.ifw_nsdr_ndxprmomod" automate_uuid="6017dfd6-bc71-4212-ab9e-784fe5978296">R tutorial: How to reshape data in R</a></div>
+</li>
+</ul>
+<div class="more-insider"><a href="https://www.infoworld.com/insider" automate_uuid="70765412-e94b-4c41-b677-cba535cec58a"><span class="insider"></span>See all Insider</a></div>
+</div><!-- //.other-insider -->
+</div><!-- //.insider-both -->
+</div><!--  //.promo.apart -->
+</div>
+</div><div class="apart ad lazyload_ad_article"><code type="text/javascript"><!--IDG.GPT.IMUCounter = IDG.GPT.IMUCounter + 1;IDG.GPT.addDisplayedAd(IDG.GPT.getIMUSlotName(), "true");document.write('<div id="' +IDG.GPT.getIMUSlotName() + '" class="ad-container">');IDG.GPT.defineGoogleTagSlot(IDG.GPT.getIMUSlotName(), [[300,250]], false, true);document.write('</div>');$('#' + IDG.GPT.getIMUSlotName()).responsiveAd({screenSize:'971 1115', scriptTags: []});if (Object.keys(IDG.GPT.companions).length > 0 || IDG.GPT.disableInitialLoad) { IDG.GPT.refreshAd(IDG.GPT.getIMUSlotName());}//--></code></div></section>
+<section class="bodee">
+<div class="ad placement">
+<!--  Begin gpt-skin/inread -->
+<div id="inread" class=" ad-container" data-google-query-id="CP-zzI_M69kCFY7JZAod9AoJCw">
+<div id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_1__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_1" title="3rd party ad content" name="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_1" width="1" height="1" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" data-integralas-id-fc29c1b3-d907-1c89-8cd4-4233a81ebbc1="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/saved_resource(1).html"></iframe></div></div>
+<script type="text/javascript">IDG.GPT.addDisplayedAd("inread","true");IDG.GPT.displayGoogleTagSlot('inread');</script>
+<!--  End gpt-skin/inread -->
+</div>
+<script>var dataLayer=window.dataLayer=window.dataLayer||[];dataLayer.push({'event':'loadTopCollectionModule'});</script>
+<script type="text/javascript">$(document).ready(function(){$('.articleBloxAd').filter(":visible").each(function(index,item){var id=$(item).attr('id');var divClass=$(item).attr('class');var adString=IDG.GPT.getLazyAdCode();$(item).replaceWith("<div id=\""+id+"\" class=\"lazyload_blox_ad "+divClass+"\">"+adString+"</div>");});try{$("div.lazyload_blox_ad").lazyLoadAd({threshold:0,forceLoad:false,onLoad:false,onComplete:false,timeout:1500,debug:false,xray:false});}catch(exception){console.log("error loading lazyload_ad "+exception);}});</script>
+<script type="text/javascript">$(function(){var MOBILE_BREAK=929;if($(window).width()<=MOBILE_BREAK){executeDRRMobile();}else{executeDRRDesktop();}});function executeDRRMobile(){var TOP_IMU_HEIGHT=250,INTERMODULE_HEIGHT=400,GRAF_HEIGHT=25,MODULE_HEIGHT_BUFFER=350,AD_HEIGHT_BUFFER=350,RIGHT_PIXEL_WINDOW=300,DEBUG=false;var articleDRRModuleList=["dealposts","insider.promo.direct"],moduleUrls=[],modules=[],placementIndex=[],moduleCounter=0,adPositions=new Array(0,1,3,5);cumulativeHeight=0,loopCounter=0,placementTarget=TOP_IMU_HEIGHT+MODULE_HEIGHT_BUFFER+GRAF_HEIGHT+INTERMODULE_HEIGHT;if(true){var dealpostsIdx=articleDRRModuleList.indexOf("dealposts");if(dealpostsIdx>-1){articleDRRModuleList.splice(dealpostsIdx,1);adPositions=[0,1,2,4];}}for(var i=0;i<articleDRRModuleList.length;i++){var articleDRRModuleName=articleDRRModuleList[i];if(articleDRRModuleName=="products.latest-reviews"){articleDRRModuleName+="&pageSize=3";articleDRRModuleName+="&categoryId=3646";}else if(articleDRRModuleName=="articles.latest-reviews"){articleDRRModuleName+="&categoryId=3646";}else if(articleDRRModuleName=="insider.promo.direct"){var isPremium=false;showPromo=false;articleDRRModuleName+="&pageSize=3&showPromo="+showPromo;articleDRRModuleName+="&categoryId=3646";}moduleUrls.push("/napi/tile?def="+articleDRRModuleName+"&excludeCurrentArticle=true&excludeIds=3070454");}if($("figure.hero-img").height()){placementTarget+=$("figure.hero-img").height();}var firstModIndex=$("#drr-container > p:eq(7)").index();$("#drr-container").children().slice(0,firstModIndex).each(function(){placementTarget+=$(this).height();});var firstMobileAdHtml=getLazyLoadAdHtml();$("#drr-container").children().each(function(index,value){if($(this).is(':visible')){if(DEBUG){console.log($(this));}if(cumulativeHeight>=placementTarget){if(DEBUG){console.log("cumulativeHeight >= placementTarget and cumulativeHeight is "+cumulativeHeight+" and placementTarget is "+placementTarget);}var placementDiff=0;if($.inArray(loopCounter,adPositions)!=-1||loopCounter>=5){try{IDG.GPT.addExtIMU();var adDivString;if(true){adDivString=getLazyLoadAdHtml();}else{IDG.GPT.IMUCounter=IDG.GPT.IMUCounter+1;var slotName=IDG.GPT.getIMUSlotName(),adString="<div id='"+slotName+"'></div><script>$('#"+slotName+"').responsiveAd({screenSize:'971 1115', scriptTags: []});if (Object.keys(IDG.GPT.companions).length > 0) {IDG.GPT.refreshAd('"+slotName+"');}<\/script>";adDivString="<div class='apart ad'>"+adString+"</div>";IDG.GPT.defineGoogleTagSlot(slotName,[[320,50],[300,250],[300,50]],false,true);}placementDiff=applyInsert($(this),adDivString);if(DEBUG){console.log("Just placed an ad and the placementDiff is: "+placementDiff);}placementTarget=cumulativeHeight+placementDiff+INTERMODULE_HEIGHT+AD_HEIGHT_BUFFER;}catch(e){console.log("Error: "+e);}}else if(moduleCounter<articleDRRModuleList.length){var elementId="drr-mod-"+moduleCounter;var moduleDivString="<div id=\""+elementId+"\" />";modules.push(elementId);placementDiff=applyInsert($(this),moduleDivString);if(DEBUG){console.log("Just placed a module and the placementDiff is: "+placementDiff);}placementTarget=cumulativeHeight+placementDiff+INTERMODULE_HEIGHT+MODULE_HEIGHT_BUFFER;moduleCounter++;}loopCounter++;}if($(this).is("figure")&&!$(this).is("figure.large")){cumulativeHeight+=GRAF_HEIGHT;}else{cumulativeHeight+=$(this).height()+GRAF_HEIGHT;}}});var $relatedStories=$('.related-promo-wrapper');if($relatedStories.length){var $relatedStoriesClone=$relatedStories.clone();$relatedStoriesClone.insertAfter("#drr-container > p:eq(7)");}if(false){var $dealPost=$('.dealpost-mod');var $amazonWidget=$('#amazon-widget');if($dealPost.length&&$amazonWidget.length){var $dealPostClone=$dealPost.remove();var $amazonWidgetClone=$amazonWidget.remove();$dealPostClone.insertAfter("#drr-container > p:eq(7)");$amazonWidgetClone.insertAfter($dealPostClone);}}if(firstMobileAdHtml){$(firstMobileAdHtml).insertAfter("#drr-container > p:eq(1)");}var $insiderPromo=$('.insider-promo-wrapper');if($insiderPromo.length){var $insiderPromoClone=$insiderPromo.clone();$insiderPromoClone.insertAfter("#drr-container > p:eq(1)");}try{IDG.GPT.trackOmniture();}catch(e){console.log("Error: "+e);}var placeModule=function(data){var placementId=$(data).filter('div').attr('data-placement-id');$("#"+placementId).html(data);};for(i=0;i<modules.length;i++){if(moduleUrls[i]!==undefined){$.get(moduleUrls[i]+"&divId="+modules[i],placeModule);}}$("div.lazyload_ad_article").lazyLoadAd({threshold:0,forceLoad:false,onLoad:false,onComplete:false,timeout:1500,debug:false,xray:false});function getLazyLoadAdHtml(){try{var adString=IDG.GPT.getLazyAdCode(true);return"<div class=\"apart ad lazyload_ad_article\">"+adString+"</div>";}catch(e){console.log("Error: "+e);}}function applyInsert(jqo,divString){if(DEBUG){console.log("applyInsert at top and jqo index is: "+jqo.index());}for(var i=0;i<=6;i++){$thisElement=jqo.nextAll().andSelf().slice(i,i+1);if(DEBUG){console.log("Checking first six and i is: "+i+" and this element index is "+$thisElement.index());}if($thisElement.index()<0){break;}if(allowPlacement($thisElement)){return addElement(jqo,$thisElement,divString);}}if(DEBUG){console.log("No nearby allows so just place in first spot that is not after reject.");}var numElements=jqo.nextAll().length;var startIndex=jqo.index();for(var i=startIndex;i<=numElements;i++){var $element=$("#drr-container").children().eq(i);if($element!=null&&(placementIndex==null||placementIndex.indexOf(i)==-1)&&!isReject($element.prev())){return addElement(jqo,$element,divString);}}if(DEBUG){console.log("Not going to place element: return 0.");}return 0;}function addElement(jqo,allowElement,divString){var offset=allowElement.index()-jqo.index();if(DEBUG){console.log("addElement: jqo index is "+jqo.index()+" allowElement index is "+allowElement.index());}if(elementNotNearEnd(allowElement,RIGHT_PIXEL_WINDOW)){allowElement.before(divString);if(DEBUG){console.log("addElement: Adding "+allowElement.index()+" to placementIndex.");}placementIndex.push(allowElement.index());if(offset==0){return 0;}else{return getHeightDifference(jqo,allowElement);}}else{if(DEBUG){console.log("addElement: Near the end so do NOT add.");}return 0;}}function getHeightDifference(jqo,allowElement){var offset=allowElement.index()-jqo.index(),height=0,children=null;if(offset>0){children=$("#drr-container").children().slice(jqo.index(),allowElement.index());}else{children=$("#drr-container").children().slice(allowElement.index(),jqo.index());}if(children!=null){children.each(function(i){if(DEBUG){console.log("About to add this element's height to heigh diff offset");console.log($(this));}height+=$(this).height()+GRAF_HEIGHT;});}if(offset<0){height*=-1;}if(DEBUG){console.log("getHeightDifference: offset was "+offset+" and height diff is : "+height);}return height;}function allowPlacement(jqo){if(jqo.prev()!=null&&isReject(jqo.prev())){return false;}return true;}function isReject(jqo){if(jqo!=null){if(jqo.is('h2')||jqo.is('h3')||jqo.is('h4')||jqo.is('h5')){if(DEBUG){console.log("isReject: found header");}return true;}}return false;}function elementNotNearEnd(element,pixelWindow){if(pixelWindow===null){pixelWindow=500;}if(element===null){return false;}var remainingHeight=0,children=$("#drr-container").children().slice(element.index());if(children===null){return false;}children.each(function(i){remainingHeight+=$(this).height();});if(remainingHeight>pixelWindow){return true;}else{if(DEBUG){console.log("Element too close to end. Remaining height is: "+remainingHeight+" and window is "+pixelWindow);}return false;}}}function executeDRRDesktop(){var heroImgHeight=$('figure.hero-img').outerHeight(true);if(heroImgHeight===null){heroImgHeight=0;}var galleryItemHeight=$('figure.thm-gallery').outerHeight(true);if(galleryItemHeight===null){galleryItemHeight=0;}var atAglanceTop=$('.at-a-glance.top').height();if(atAglanceTop===null){atAglanceTop=0;}var drrContainerHeight=$('div#drr-container').outerHeight(true);var topIMUheight=$('#topimu').height();if(topIMUheight===0){topIMUheight=600;}var dealPostHeight;var relatedPromoHeight;relatedPromoHeight=$('div.related-promo-wrapper').outerHeight(true);if(relatedPromoHeight===null){relatedPromoHeight=0;}dealPostHeight=0;var videoHowtoHeight=$('div#video-howto-wrapper').outerHeight(true);if(videoHowtoHeight===null){videoHowtoHeight=0;}var teadsInreadHeight=$('div.teads-inread').height();if(teadsInreadHeight===null){teadsInreadHeight=0;}var unrulyAdHeight=$('.unruly_in_article_placement').height();if(unrulyAdHeight===null){unrulyAdHeight=0;}var collapsibleAdHeight=unrulyAdHeight+teadsInreadHeight;var workingRRheight=((heroImgHeight+galleryItemHeight+atAglanceTop+drrContainerHeight)-(topIMUheight+relatedPromoHeight+dealPostHeight+videoHowtoHeight));workingRRheight=workingRRheight-collapsibleAdHeight;if(galleryItemHeight>0){workingRRheight=workingRRheight-1400;}var DEBUG=false;if(DEBUG){console.log('-----working RR height = '+workingRRheight);}var articleDRRModuleList=["dealposts","insider.promo.direct"],moduleUrls=[],modules=[],moduleCounter=0,loopCounter=0;var adPositions=new Array(0,1,3,5);if(true){var dealpostsIdx=articleDRRModuleList.indexOf("dealposts");if(dealpostsIdx>-1){articleDRRModuleList.splice(dealpostsIdx,1);adPositions=[0,1,2,4];}}for(var i=0;i<articleDRRModuleList.length;i++){var articleDRRModuleName=articleDRRModuleList[i];if(articleDRRModuleName=="products.latest-reviews"){articleDRRModuleName+="&pageSize=3";articleDRRModuleName+="&categoryId=3646";}else if(articleDRRModuleName=="articles.latest-reviews"){articleDRRModuleName+="&categoryId=3646";}else if(articleDRRModuleName=="insider.promo.direct"){var isPremium=false;showPromo=false;articleDRRModuleName+="&pageSize=3&showPromo="+showPromo;articleDRRModuleName+="&categoryId=3646";}moduleUrls.push("/napi/tile?def="+articleDRRModuleName+"&excludeCurrentArticle=true&excludeIds=3070454");}var numItems=0;var minRRHeight=1000;if(workingRRheight>minRRHeight){numItems=1;minRRHeight=2000;}if(workingRRheight>minRRHeight){numItems=2;minRRHeight=3000;}if(workingRRheight>minRRHeight){numItems=3;minRRHeight=4000;}if(workingRRheight>minRRHeight){numItems=4;minRRHeight=4700;}while(workingRRheight>minRRHeight){numItems++;minRRHeight+=700;}for(var currIndex=0;currIndex<numItems;currIndex++){if($.inArray(currIndex,adPositions)!=-1||currIndex>=5){try{IDG.GPT.addExtIMU();var adDivString;if(true){if(currIndex<4){var adString="<code type=\"text\/javascript\">"+"<!--IDG.GPT.IMUCounter = IDG.GPT.IMUCounter + 1;IDG.GPT.addDisplayedAd(IDG.GPT.getIMUSlotName(), \"true\");"+"document.write('<div id=\"' +IDG.GPT.getIMUSlotName() + '\" class=\"ad-container\">');"+"IDG.GPT.defineGoogleTagSlot(IDG.GPT.getIMUSlotName(), [[300,250],[300,600]]);"+"document.write('</div>');"+"$('#' + IDG.GPT.getIMUSlotName()).responsiveAd({screenSize:'971 1115', scriptTags: []});"+"if (Object.keys(IDG.GPT.companions).length > 0 || IDG.GPT.disableInitialLoad) { IDG.GPT.refreshAd(IDG.GPT.getIMUSlotName());}//--></code>";adDivString="<div class=\"apart ad lazyload_ad_article\">"+adString+"</div>";}else{adDivString=getLazyLoadAdHtml();}}else{IDG.GPT.IMUCounter=IDG.GPT.IMUCounter+1;var slotName=IDG.GPT.getIMUSlotName(),adString="<div id='"+slotName+"'></div><script>$('#"+slotName+"').responsiveAd({screenSize:'971 1115', scriptTags: []});if (Object.keys(IDG.GPT.companions).length > 0 || IDG.GPT.disableInitialLoad) {IDG.GPT.refreshAd('"+slotName+"');}<\/script>";adDivString="<div class='apart ad'>"+adString+"</div>";if(currIndex<4){IDG.GPT.defineGoogleTagSlot(slotName,[[300,250],[300,600]],false,true);}else{IDG.GPT.defineGoogleTagSlot(slotName,[[300,250]],false,true);}}$(adDivString).appendTo('#drr-top-ad');if(DEBUG){console.log("-----Just placed an AD currIndex = "+currIndex);}}catch(e){console.log("Error: "+e);}}else if(moduleCounter<articleDRRModuleList.length){var elementId="drr-mod-"+moduleCounter;var moduleDivString="<div id=\""+elementId+"\" />";modules.push(elementId);$('#drr-top-ad').append(moduleDivString);if(DEBUG){console.log("-----Just placed a MODULE and currIndex =  "+currIndex);}moduleCounter++;}}try{IDG.GPT.trackOmniture();}catch(e){console.log("Error: "+e);}var placeModule=function(data){var placementId=$(data).filter('div').attr('data-placement-id');$("#"+placementId).html(data);};for(i=0;i<modules.length;i++){if(moduleUrls[i]!==undefined){$.get(moduleUrls[i]+"&divId="+modules[i],placeModule);}}$("div.lazyload_ad_article").lazyLoadAd({threshold:0,forceLoad:false,onLoad:false,onComplete:false,timeout:1500,debug:false,xray:false});function getLazyLoadAdHtml(){try{var adString=IDG.GPT.getLazyAdCode(true);return"<div class=\"apart ad lazyload_ad_article\">"+adString+"</div>";}catch(e){console.log("Error: "+e);}}}</script>
+<div id="drr-container" class="cat " itemprop="articleBody">
+<p>
+The need for speed in the software development cycle has given rise to a number of valuable automation tools for developers. Chief among these tools are those aimed at facilitating the continuous integration and continuous delivery of software projects. Through these CI/CD tools, development teams can keep software up-to-date and quickly put it into production.
+</p><p>
+Jenkins is among the best-known CI/CD systems, and it is <a href="http://www.infoworld.com/article/3046038/application-development/why-jenkins-is-becoming-the-engine-of-devops.html" automate_uuid="4937c177-347d-4051-9919-a9d42c83f493">fast becoming the engine for devops</a>, managing the dev side. A key benefit of Jenkins is the wealth of plug-ins developed for it, providing capabilities that range from extending the number of version control systems Jenkins supports to accommodations for IBM mainframes. Spun out of the Hudson project first launched by Sun Microsystems, Jenkins recently hit <a href="http://www.infoworld.com/article/3060921/application-development/jenkins-2-focuses-on-configuration-and-security.html" automate_uuid="d197ff6d-c7ee-4b67-90e1-38e208185988">Version 2</a>, with improvements to its usability and security.
+</p><aside class="fakesidebar"><strong>[ Download the Deep Dive: <a href="http://www.infoworld.com/resources/96133/devops/monitoring-in-the-age-of-devops#tk.ifw-infsb" automate_uuid="6ccc9f49-b8d6-4ca6-8418-ef76205ee260">Monitoring in the age of devops</a>. | Get a digest of the day's top tech stories in the <a href="http://www.infoworld.com/newsletters/signup.html#tk.ifw-infsb" automate_uuid="3bf3b6f4-7f5b-4b4b-abee-9aa67ee7dd3d">InfoWorld Daily newsletter</a>. ]</strong></aside><p>
+But Jenkins isn’t the only option when it comes to continuous integration and continuous delivery. Companies such as CircleCI, GitLab, and JetBrains also offer worthwhile CI/CD tools for developers to choose from.
+</p><p>
+Following are several options beyond Jenkins for automating your software delivery processes.
+</p><aside class="nativo-promo nativo-promo-1 smartphone" id=""> </aside><h2>Atlassian Bamboo</h2><p>
+Atlassian Bamboo offers a wealth of capabilities, ranging from building and deploying Docker containers to running applications on Amazon Web Services. Dedicated agents can be used to run hot fixes and critical builds immediately. Scalability has been viewed as a thorn in Jenkins’ side; here, Randall Ward, CEO of Appfire, an Atlassian business partner that provides add-ons and services, sees an advantage for Bamboo.
+</p><p>
+“Atlassian has really broached the subject of scalability,” Ward says. The company has worked with Jenkins users and finds them suffering “major performance roadblocks,” he adds. Bamboo scales via polling agents and extended agent capabilities, Ward says. Appfire uses Bamboo as a Swiss Army knife of sorts, for integration testing with third-party add-ons and components, as well as for deploying code.
+</p><p>
+Bamboo features code visibility, enabling users to see a full roll-up of code changes since the latest previous deployment. It integrates with other Atlassian products, including the Bitbucket Git code management solution, Jira project management solution, and HipChat team chat application.
+</p><h2>CircleCI</h2><p>
+CircleCI also emphasizes scalability, in addition to its ability to test everything, ranging from thousands of Jasmin unit tests to mobile apps. Accommodations for Docker are featured as well, with CircleCI helping developers bring Docker files to production.
+</p><aside class="nativo-promo smartphone tablet desktop ntv1081752-225517-4925 ntvClickOut" style=" border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; padding-top: 10px; margin-bottom: 20px;padding-bottom:10px; position:relative;" id="ntv1081752-225517-4925">
+    <a href="https://jadserve.postrelease.com/trk?ntv_at=3&amp;ntv_ui=09865f8a-8ba6-4623-aa02-4fa74728c15c&amp;ntv_a=7XADAE5AbAmIEQA&amp;ntv_fl=2za9OrgvDaFhGbuY4x4Lapf_XA5O1wopAAIOYrwwteYPZxPoM1EQSKXrvTzzzkf2FgutxYT0fe679QxvRROBy-SLspoJr04EchBY0QUBSAiYMz6VKM7SYkxrAh44rVp4HAufyWiYIzHeEvKVQ5nPrQ==&amp;ord=1488300674&amp;ntv_ht=_PeoWgA&amp;prx_referrer=https%3A%2F%2Fwww.google.com%2F&amp;ntv_r=http://insight.adsrvr.org/track/clk?imp=a6a16c17-9448-419c-ab86-3085bcecbd56&amp;ag=i63h84t&amp;sfe=ce077fc&amp;sig=BVB4cTbtZGyafKLr4PBwTO8J0iJptUscYrst8n0a00U.&amp;crid=tjqk00hs&amp;cf=258136&amp;fq=0&amp;td_s=www.infoworld.com&amp;rcats=jba&amp;mcat=&amp;mste=&amp;mfld=4&amp;mssi=&amp;mfsi=5bgegewkee&amp;sv=nativo&amp;uhow=75&amp;agsa=&amp;rgco=United%20States&amp;rgre=Oregon&amp;rgme=810&amp;rgci=Boardman&amp;rgz=97818&amp;dt=PC&amp;osf=Windows&amp;os=Windows8&amp;br=Chrome&amp;svpid=3966&amp;rlangs=01&amp;mlang=&amp;did=711e85e3-0922-481f-9d1d-6954f70099f6&amp;rcxt=Other&amp;tmpc=&amp;vrtd=&amp;osi=&amp;osv=&amp;daid=&amp;dnr=0&amp;vpb=&amp;svsc=&amp;dur=Cj4KIWNoYXJnZS1hbGxEb3VibGVWZXJpZnlCcmFuZFNhZmV0eSIZCPH__________wESDGRvdWJsZXZlcmlmeQo_CiJjaGFyZ2UtYWxsRG91YmxlVmVyaWZ5Qm90QXZvaWRhbmNlIhkI5___________ARIMZG91YmxldmVyaWZ5&amp;crrelr=&amp;npt=&amp;svscid=9279&amp;mdl=Chrome%20-%20Windows&amp;atst=3&amp;r=https://servedby.flashtalking.com/click/3/88681;2981239;50126;211;0/?url=https://www.uscellularmedia.com/bannerland/vendor/m/p1prepaid.html" title="The Best Reasons to Try a Prepaid Cell Phone." rel="nofollow" target="_top" automate_uuid="ef510b85-fbf8-4700-b608-8fe9b2ab5c4e">
+      <div id="ntvImageBox" class="excerpt-img bugblog ntv-preview-img-wrapper" style="">
+        <img class="mediumImage imgId100536478 ntv-preview-img" alt="The Best Reasons to Try a Prepaid Cell Phone." src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/601054C8DFD043C79B68B3D74470D9C0.jpg" title="The Best Reasons to Try a Prepaid Cell Phone." style="max-height: 100%; height: auto; width:100%;">
+      </div>
+    </a>
+    <style>
+aside.nativo-promo.smartphone.tablet.desktop p {     font-size: 16px !important;   line-height: 1.2 !important;  }
+aside.nativo-promo.smartphone.tablet.desktop p.post-meta  { margin-top:0px !important;}
+aside.nativo-promo.smartphone.tablet.desktop p.crawl-headline {  font-size: 18px !important;  }
+
+#ntvImageBox {float: left;margin-right:20px;width: 300px; height:169px; overflow:hidden;}
+
+@media only screen and (max-width: 667px) {
+#ntvImageBox {margin-right:0; margin-bottom:10px; float:none; width:100%; height:auto;}
+
+}
+
+</style>
+    <div class="excerpt-text">
+      <p class="post-meta">
+        <span class="sponsored-blog">SponsoredPost</span>
+        <span class="post-byline"> Sponsored by <bdo class="">U.S. Cellular Prepaid</bdo>
+        </span>
+      </p>
+      <p class="crawl-headline">
+        <a href="https://jadserve.postrelease.com/trk?ntv_at=3&amp;ntv_ui=09865f8a-8ba6-4623-aa02-4fa74728c15c&amp;ntv_a=7XADAE5AbAmIEQA&amp;ntv_fl=2za9OrgvDaFhGbuY4x4Lapf_XA5O1wopAAIOYrwwteYPZxPoM1EQSKXrvTzzzkf2FgutxYT0fe679QxvRROBy-SLspoJr04EchBY0QUBSAiYMz6VKM7SYkxrAh44rVp4HAufyWiYIzHeEvKVQ5nPrQ==&amp;ord=1488300674&amp;ntv_ht=_PeoWgA&amp;prx_referrer=https%3A%2F%2Fwww.google.com%2F&amp;ntv_r=http://insight.adsrvr.org/track/clk?imp=a6a16c17-9448-419c-ab86-3085bcecbd56&amp;ag=i63h84t&amp;sfe=ce077fc&amp;sig=BVB4cTbtZGyafKLr4PBwTO8J0iJptUscYrst8n0a00U.&amp;crid=tjqk00hs&amp;cf=258136&amp;fq=0&amp;td_s=www.infoworld.com&amp;rcats=jba&amp;mcat=&amp;mste=&amp;mfld=4&amp;mssi=&amp;mfsi=5bgegewkee&amp;sv=nativo&amp;uhow=75&amp;agsa=&amp;rgco=United%20States&amp;rgre=Oregon&amp;rgme=810&amp;rgci=Boardman&amp;rgz=97818&amp;dt=PC&amp;osf=Windows&amp;os=Windows8&amp;br=Chrome&amp;svpid=3966&amp;rlangs=01&amp;mlang=&amp;did=711e85e3-0922-481f-9d1d-6954f70099f6&amp;rcxt=Other&amp;tmpc=&amp;vrtd=&amp;osi=&amp;osv=&amp;daid=&amp;dnr=0&amp;vpb=&amp;svsc=&amp;dur=Cj4KIWNoYXJnZS1hbGxEb3VibGVWZXJpZnlCcmFuZFNhZmV0eSIZCPH__________wESDGRvdWJsZXZlcmlmeQo_CiJjaGFyZ2UtYWxsRG91YmxlVmVyaWZ5Qm90QXZvaWRhbmNlIhkI5___________ARIMZG91YmxldmVyaWZ5&amp;crrelr=&amp;npt=&amp;svscid=9279&amp;mdl=Chrome%20-%20Windows&amp;atst=3&amp;r=https://servedby.flashtalking.com/click/3/88681;2981239;50126;211;0/?url=https://www.uscellularmedia.com/bannerland/vendor/m/p1prepaid.html" class="ntv-headline ntv_clickout_icon ntv_link1081752-225517 ntv-headline-anchor" title="The Best Reasons to Try a Prepaid Cell Phone." rel="nofollow" target="_top" automate_uuid="46134777-8373-4ec6-9e9d-60d3916c36f2">The Best Reasons to Try a Prepaid Cell Phone.</a>
+      </p>
+      <p id="ntvPreviewP123" class="crawl-summary">Better signal and better savings. Find out why people are choosing U.S. Cellular Prepaid.</p>
+    </div><script type="text/javascript">PostRelease.tracker1081752 = new ntvViewableImpressionTracker({"primaryImpressionURL":"https://jadserve.postrelease.com/trk.gif?ntv_at\u003d47\u0026ntv_ui\u003d09865f8a-8ba6-4623-aa02-4fa74728c15c\u0026ntv_a\u003d7XADAE5AbAmIEQA\u0026ntv_fl\u003d2za9OrgvDaFhGbuY4x4Lapf_XA5O1wopAAIOYrwwteYPZxPoM1EQSKXrvTzzzkf2FgutxYT0fe679QxvRROBy-SLspoJr04EchBY0QUBSAiYMz6VKM7SYkxrAh44rVp4HAufyWiYIzHeEvKVQ5nPrQ\u003d\u003d\u0026ord\u003d-1334401313\u0026ntv_ht\u003d_PeoWgA","thirdPartyTrackingTags":"","selector":".ntv1081752-225517-4925","minimumAreaViewable":0.5,"minimumExposedTime":1000,"checkOnFocus":true,"checkMinimumAreaViewable":true,"placementID":1081752,"infiniteScroll":false,"adID":225517});</script><script type="text/javascript">ntv.Tracking.Record("https://jadserve.postrelease.com/trk.gif?ntv_at=46&ntv_ui=09865f8a-8ba6-4623-aa02-4fa74728c15c&ntv_a=7XADAE5AbAmIEQA&ntv_fl=2za9OrgvDaFhGbuY4x4Lapf_XA5O1wopAAIOYrwwteYPZxPoM1EQSKXrvTzzzkf2FgutxYT0fe679QxvRROBy-SLspoJr04EchBY0QUBSAiYMz6VKM7SYkxrAh44rVp4HAufyWiYIzHeEvKVQ5nPrQ==&ord=-499961003&ntv_ht=_PeoWgA&ntv_bf=YkjXCCJE1whiSNcI&ntv_ebf=PCkgTHwlIEw8KSBM&ntv_brp=10BPoJdMg2wbjINt&ntv_ebp=XcVQ1R3JnBmRCZwY&ntv_wnp=4SCpgKEsvfoAZweU&ntv_nwp=Q0CXigNMg_CiBzme&ntv_az=fUrFMkImBDKb5QnQ&ntv_al=3Ihlp9yIZaY=&ntv_ak=BrT2oEb99qAGtPag","",1,false,{"adID":225517,"placementID":1081752});</script><script type="text/javascript">
+    prdom.query(window).bind('ready load', function () { PostRelease.disableAdsFromElement(prdom.query('.ntv1081752-225517-4925')); });
+</script><script>
+(function() {
+	var e = prdom.query('.ntv1081752-225517-4925');
+	if (e.length > 0 && !e[0].id) {
+		e[0].id = 'ntv1081752-225517-4925';
+	}
+})();
+</script><link href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/click-out-icon.css" type="text/css" rel="stylesheet"></aside><p>
+“It’s very similar” to Jenkins, says CircleCI CEO Jim Rose. It provides an orchestration layer and a workflow tool that automates code changes and pushes them to the data center, he adds. Begun in 2011, CircleCI started out as a multitenant SaaS option. It was a replacement for Jenkins where users did not have to manage their own servers. Single-page Ruby, Python, and AJAX apps were its forte. It can now be deployed behind the firewall. As opposed to Jenkins, which is open source, CircleCI is a commercial solution.
+</p><p>
+CircleCI can scale beyond what Jenkins can handle, Rose says, claiming that Jenkins can be challenged when dealing with an increasing load on infrastructure as application development teams speed up their work. “The only way to make Jenkins scale is to essentially stamp out more versions of Jenkins,” he says, adding that development teams then have to manage all of these deployment pipelines with Jenkins. With CircleCI, configuration is done at a code rather than server level.
+</p><h2>Eclipse Hudson</h2><p>
+The forerunner of Jenkins itself, Hudson has been under the jurisdiction of the Eclipse Foundation since <a href="http://www.infoworld.com/article/2624074/application-development/oracle-hands-hudson-to-eclipse--but-jenkins-fork-seems-permanent.html" automate_uuid="65fbdf19-93ed-49dc-8475-da6f620f96db">Oracle turned over the project five years ago</a>. Oracle inherited Hudson when it acquired Sun Microsystems in 2010, but the Jenkins fork emerged after developers did not see eye-to-eye over the project’s direction under Oracle. Recently upgraded in February, Hudson is written in Java and runs in a servlet container such as Apache Tomcat. It can work with version control tools such as Git and Subversion.
+</p><p>
+"In the Hudson team we are committed to enhancing Hudson on an ongoing basis with a particular focus on making Hudson a suitable platform for continuous delivery as well as continuous integration,” a representative of Eclipse says. “As such, you will see new features come into the tool that relate specifically to the needs of large enterprises to use Hudson at scale and as part of complex build pipelines."
+</p><p>
+One Hudson user, Cleo, which provides business integration software and services, evaluated Jenkins as a replacement for Hudson because Jenkins was maintaining most Hudson plug-ins, according to a case study from Eclipse. “We abandoned this idea after seeing that Jenkins’ core functionality was less reliable than Hudson’s,” said Stuart Lorber, a Cleo release engineer, in that Eclipse study.
+</p><h2>GitLab CI</h2><p>
+Available as SaaS or behind the firewall, the open source GitLab CI can execute on any platform that supports the Go language, including Unix, Windows, and OS X. It features parallel builds with builds split over multiple machines. Users can automatically scale up and down VMs for immediate processing and minimized costs. Other capabilities include multilanguage support, real-time logging, a pipeline for defining multiple jobs per stage, and Docker support, for testing and building Docker images. The company also sees scalability as an advantage.
+</p><p>
+GitLab CI, which is part of <a href="http://www.infoworld.com/article/3037020/application-development/gitlab-85-pours-on-the-speed.html" automate_uuid="59b8a712-e8fe-4eb8-b25d-0687cd3b3527">the GitLab code-hosting platform</a>, is intended to provide easy setup for continuous integration, says GitLab CEO Sid Sijbrandij. “Setting up CI used to be tedious, and we want to make it very very simple.” GitLab CI does not require a lot of administration, he adds. Tests are executed on GitLab Runner, which was written in Go and provides multiplatform, multilanguage capabilities.
+</p><p>
+Because&nbsp;GitLab CI is integrated with GitLab, users do not have to set up new projects.&nbsp;Users add a file to describe how you want to test the repository. While acknowledging Jenkins as a competitor, Sijbrandij declined the opportunity to say why his platform would be the better option. “I greatly respect Jenkins.”
+</p><aside class="nativo-promo smartphone tablet desktop ntv1081753-225517-4925 ntvClickOut" style=" border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; padding-top: 10px; margin-bottom: 20px;padding-bottom:10px; position:relative;" id="ntv1081753-225517-4925">
+    <a href="https://jadserve.postrelease.com/trk?ntv_at=3&amp;ntv_ui=2e755f02-d105-4660-9510-fa1776995e1f&amp;ntv_a=7XADA448bAmYEQA&amp;ntv_fl=2za9OrgvDaFhGbuY4x4Lapf_XA5O1wopAAIOYrwwteYPZxPoM1EQSKXrvTzzzkf2FgutxYT0fe679QxvRROBy-SLspoJr04EchBY0QUBSAiYMz6VKM7SYkxrAh44rVp4HAufyWiYIzHeEvKVQ5nPrQ==&amp;ord=-799908629&amp;ntv_ht=_PeoWgA&amp;prx_referrer=https%3A%2F%2Fwww.google.com%2F&amp;ntv_r=http://insight.adsrvr.org/track/clk?imp=cb6adcd3-7d13-44aa-bd24-7a036f495848&amp;ag=i63h84t&amp;sfe=ce077fc&amp;sig=4AKDeWXzuhUCgnyisSoh7aIZWGF4SQvXY_RBXMwwa0A.&amp;crid=p0s2eki0&amp;cf=258136&amp;fq=0&amp;td_s=www.infoworld.com&amp;rcats=jba&amp;mcat=&amp;mste=&amp;mfld=4&amp;mssi=&amp;mfsi=5bgegewkee&amp;sv=nativo&amp;uhow=75&amp;agsa=&amp;rgco=United%20States&amp;rgre=Oregon&amp;rgme=810&amp;rgci=Boardman&amp;rgz=97818&amp;dt=PC&amp;osf=Windows&amp;os=Windows8&amp;br=Chrome&amp;svpid=3966&amp;rlangs=01&amp;mlang=&amp;did=711e85e3-0922-481f-9d1d-6954f70099f6&amp;rcxt=Other&amp;tmpc=&amp;vrtd=&amp;osi=&amp;osv=&amp;daid=&amp;dnr=0&amp;vpb=&amp;svsc=&amp;dur=Cj4KIWNoYXJnZS1hbGxEb3VibGVWZXJpZnlCcmFuZFNhZmV0eSIZCPH__________wESDGRvdWJsZXZlcmlmeQo_CiJjaGFyZ2UtYWxsRG91YmxlVmVyaWZ5Qm90QXZvaWRhbmNlIhkI5___________ARIMZG91YmxldmVyaWZ5&amp;crrelr=&amp;npt=&amp;svscid=9279&amp;mdl=Chrome%20-%20Windows&amp;atst=3&amp;r=https://servedby.flashtalking.com/click/3/88681;2981191;50126;211;0/?url=https://www.uscellularmedia.com/bannerland/vendor/m/p1prepaid.html" title="Why You’ll Save More on the Things You Love When You Go Prepaid" rel="nofollow" target="_top" automate_uuid="03381a2b-7ef7-4513-8a47-0f3dc3a38baa">
+      <div id="ntvImageBox" class="excerpt-img bugblog ntv-preview-img-wrapper" style="">
+        <img class="mediumImage imgId100536478 ntv-preview-img" alt="Why You’ll Save More on the Things You Love When You Go Prepaid" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/601054C8DFD043C79B68B3D74470D9C0.jpg" title="Why You’ll Save More on the Things You Love When You Go Prepaid" style="max-height: 100%; height: auto; width:100%;">
+      </div>
+    </a>
+    <style>
+aside.nativo-promo.smartphone.tablet.desktop p {     font-size: 16px !important;   line-height: 1.2 !important;  }
+aside.nativo-promo.smartphone.tablet.desktop p.post-meta  { margin-top:0px !important;}
+aside.nativo-promo.smartphone.tablet.desktop p.crawl-headline {  font-size: 18px !important;  }
+
+#ntvImageBox {float: left;margin-right:20px;width: 300px; height:169px; overflow:hidden;}
+
+@media only screen and (max-width: 667px) {
+#ntvImageBox {margin-right:0; margin-bottom:10px; float:none; width:100%; height:auto;}
+
+}
+
+</style>
+    <div class="excerpt-text">
+      <p class="post-meta">
+        <span class="sponsored-blog">SponsoredPost</span>
+        <span class="post-byline"> Sponsored by <bdo class="">U.S. Cellular Prepaid</bdo>
+        </span>
+      </p>
+      <p class="crawl-headline">
+        <a href="https://jadserve.postrelease.com/trk?ntv_at=3&amp;ntv_ui=2e755f02-d105-4660-9510-fa1776995e1f&amp;ntv_a=7XADA448bAmYEQA&amp;ntv_fl=2za9OrgvDaFhGbuY4x4Lapf_XA5O1wopAAIOYrwwteYPZxPoM1EQSKXrvTzzzkf2FgutxYT0fe679QxvRROBy-SLspoJr04EchBY0QUBSAiYMz6VKM7SYkxrAh44rVp4HAufyWiYIzHeEvKVQ5nPrQ==&amp;ord=-799908629&amp;ntv_ht=_PeoWgA&amp;prx_referrer=https%3A%2F%2Fwww.google.com%2F&amp;ntv_r=http://insight.adsrvr.org/track/clk?imp=cb6adcd3-7d13-44aa-bd24-7a036f495848&amp;ag=i63h84t&amp;sfe=ce077fc&amp;sig=4AKDeWXzuhUCgnyisSoh7aIZWGF4SQvXY_RBXMwwa0A.&amp;crid=p0s2eki0&amp;cf=258136&amp;fq=0&amp;td_s=www.infoworld.com&amp;rcats=jba&amp;mcat=&amp;mste=&amp;mfld=4&amp;mssi=&amp;mfsi=5bgegewkee&amp;sv=nativo&amp;uhow=75&amp;agsa=&amp;rgco=United%20States&amp;rgre=Oregon&amp;rgme=810&amp;rgci=Boardman&amp;rgz=97818&amp;dt=PC&amp;osf=Windows&amp;os=Windows8&amp;br=Chrome&amp;svpid=3966&amp;rlangs=01&amp;mlang=&amp;did=711e85e3-0922-481f-9d1d-6954f70099f6&amp;rcxt=Other&amp;tmpc=&amp;vrtd=&amp;osi=&amp;osv=&amp;daid=&amp;dnr=0&amp;vpb=&amp;svsc=&amp;dur=Cj4KIWNoYXJnZS1hbGxEb3VibGVWZXJpZnlCcmFuZFNhZmV0eSIZCPH__________wESDGRvdWJsZXZlcmlmeQo_CiJjaGFyZ2UtYWxsRG91YmxlVmVyaWZ5Qm90QXZvaWRhbmNlIhkI5___________ARIMZG91YmxldmVyaWZ5&amp;crrelr=&amp;npt=&amp;svscid=9279&amp;mdl=Chrome%20-%20Windows&amp;atst=3&amp;r=https://servedby.flashtalking.com/click/3/88681;2981191;50126;211;0/?url=https://www.uscellularmedia.com/bannerland/vendor/m/p1prepaid.html" class="ntv-headline ntv_clickout_icon ntv_link1081753-225517 ntv-headline-anchor" title="Why You’ll Save More on the Things You Love When You Go Prepaid" rel="nofollow" target="_top" automate_uuid="d2aa50d7-4d63-4fd8-984c-c94171d2b27c">Why You’ll Save More on the Things You Love When You Go Prepaid</a>
+      </p>
+      <p id="ntvPreviewP123" class="crawl-summary">Better signal and better savings. Find out why people are choosing U.S. Cellular Prepaid.</p>
+    </div><script type="text/javascript">PostRelease.tracker1081753 = new ntvViewableImpressionTracker({"primaryImpressionURL":"https://jadserve.postrelease.com/trk.gif?ntv_at\u003d47\u0026ntv_ui\u003d2e755f02-d105-4660-9510-fa1776995e1f\u0026ntv_a\u003d7XADA448bAmYEQA\u0026ntv_fl\u003d2za9OrgvDaFhGbuY4x4Lapf_XA5O1wopAAIOYrwwteYPZxPoM1EQSKXrvTzzzkf2FgutxYT0fe679QxvRROBy-SLspoJr04EchBY0QUBSAiYMz6VKM7SYkxrAh44rVp4HAufyWiYIzHeEvKVQ5nPrQ\u003d\u003d\u0026ord\u003d-872318534\u0026ntv_ht\u003d_PeoWgA","thirdPartyTrackingTags":"","selector":".ntv1081753-225517-4925","minimumAreaViewable":0.5,"minimumExposedTime":1000,"checkOnFocus":true,"checkMinimumAreaViewable":true,"placementID":1081753,"infiniteScroll":false,"adID":225517});</script><script type="text/javascript">ntv.Tracking.Record("https://jadserve.postrelease.com/trk.gif?ntv_at=46&ntv_ui=2e755f02-d105-4660-9510-fa1776995e1f&ntv_a=7XADA448bAmYEQA&ntv_fl=2za9OrgvDaFhGbuY4x4Lapf_XA5O1wopAAIOYrwwteYPZxPoM1EQSKXrvTzzzkf2FgutxYT0fe679QxvRROBy-SLspoJr04EchBY0QUBSAiYMz6VKM7SYkxrAh44rVp4HAufyWiYIzHeEvKVQ5nPrQ==&ord=618865060&ntv_ht=_PeoWgA&ntv_bf=lZwjTtWQI06VnCNO&ntv_ebf=7NIySazeMkns0jJJ&ntv_brp=H977k1_SN1_TEjde&ntv_ebp=chG7ezIdd7e-3Xe2&ntv_wnp=EXTCBlF41nzwM2wS&ntv_nwp=khdkW9IbcCFzUMpP&ntv_az=X-tIkGCHiZC5RIRy&ntv_al=OIv51jiL-dc=&ntv_ak=FCjnx1Rh58cUKOfH","",1,false,{"adID":225517,"placementID":1081753});</script><script type="text/javascript">
+    prdom.query(window).bind('ready load', function () { PostRelease.disableAdsFromElement(prdom.query('.ntv1081753-225517-4925')); });
+</script><script>
+(function() {
+	var e = prdom.query('.ntv1081753-225517-4925');
+	if (e.length > 0 && !e[0].id) {
+		e[0].id = 'ntv1081753-225517-4925';
+	}
+})();
+</script><link href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/click-out-icon.css" type="text/css" rel="stylesheet"></aside><h2>JetBrains TeamCity</h2><p>
+The JetBrains TeamCity CI/CD server integrates with tools such as the Apache Maven build manager and JetBrains’ own YouTrack issue tracker. “Its main selling points over other solutions is that we provide the full experience with most of the functionality that other platforms provide as plugins, built-in,” says Hadi Hariri, JetBrains vice president of developer advocacy. “In addition, of course, we have plug-in support too with many community contributions.”
+</p><p>
+TeamCity, which is not open source, also features a Web interface and administration capabilities such as providing snapshots of dependencies between builds, artifact dependencies, and build configuration templates for reuse of settings.
+</p><p>
+The platform has IDE plug-ins for Eclipse, Microsoft Visual Studio, and JetBrains IntelliJ. It also offers on-the-fly test reporting. “TeamCity is a product that's been around for 10 years. It was born out of a need inside JetBrains and has evolved to a very mature product that is used by customers large and small,” Harir says. “It's definitely a tool that grows with your needs. You can have the simplicity of configuring a CI project with a single operation and be up and running, to growing across multiple servers and handling hundreds of agents. It scales.”&nbsp;
+</p><h2>ThoughtWorks GoCD</h2><p>
+ThoughtWorks GoCD is an open source continuous delivery system that features visibility into and modeling of workflows and visualization of the value stream, as well as the ability to compare builds. It provides a “bill of materials” for deployment. An agent grid, meanwhile, offers parallel execution across pipelines and versions; templates enable reuse of configuration pipelines. “It supports CD quite richly out of the box; you don’t need to install a bunch of plug-ins to get moving,” says David Rice, managing director at ThoughtWorks.
+</p><p>
+GoCD, Rice adds, differs from Jenkins in that it is about deployment pipelines and how to make continuous delivery easier. “That’s not where Jenkins is coming from.” GoCD can be installed on premises or be set up in the cloud.
+</p><h2>ThoughtWorks Snap</h2><p>
+ThoughtWorks Snap provides cloud-based continuous integration and delivery features. “Snap is for people who are operating completely in the cloud,” says ThoughtWorks’ Rice. It is targeted toward users who “don’t want to have any infrastructure at all,” he adds. Hosted deployment pipelines can be set up from cloud platforms, including GitHub, Amazon Web Services, DigitalOcean, and Heroku. Pull requests are tested to verify that they will merge cleanly.
+</p><p>
+Snap is free for use with public repositories on GitHub; there is a charge to use it with private repositories. Recently, Docker support was added to Snap, where Docker images can be used throughout the software delivery pipeline and deployed. Better support is planned for Docker Compose to aid in running multicontainer environments.
+</p>
+<div class="end-note">
+<!-- blx4 #2002 blox4.html  -->
+<div id="" class="blx blxParticleendnote blxM2002  blox4_html  blxC24991"> </div>
+</div>
+</div>
+<script>$("a[data-product-id]").on('click',function(e){var e=e||window.event;var dataLayer=window.dataLayer=window.dataLayer||[];var prodName=$(this).attr("data-product-name");prodName=prodName.replace("\\'","'");if($(this).parents('.slideshow').length>0){var productLinkPosition="Slideshow";}else if($(this).parents('.product-sb').length>0){var productLinkPosition="Product Sidebar";}else if($(this).parents('.at-a-glance.top').length>0){var productLinkPosition="AAG Top";}else if($(this).parents('.at-a-glance').length>0){var productLinkPosition="AAG Bottom";}else if($(this).parents('.product-chart').length>0){var productLinkPosition="Product Chart";}else if($(this).parents('.product-list').length>0){var productLinkPosition="Product List";}else{var productLinkPosition="Body Text";}dataLayer.push({'event':'affiliateLink','eventCategory':'Affiliate Link','eventAction':'Click','eventLabel':''+e.target+'','productVendor':$(this).attr("data-bkvndr"),'productManufacturer':$(this).attr("data-bkmfr"),'productName':prodName,'productId':$(this).attr("data-product-id"),'productLinkPosition':productLinkPosition});});</script>
+<script>$("#drr-container a").on('click',function(e){var dataLayer=window.dataLayer=window.dataLayer||[];var $clickEl=$(this);var clickUrl=$clickEl.attr("href");var clickParentsUntilDrr=$clickEl.parentsUntil("#drr-container");var clickText=$clickEl.text().trim();var linkLocation;var linkType;var regex=new RegExp("cio|csoonline|computerworld|itnews|itworld|infoworld|networkworld|javaworld|techconnect|techhive|macworld|pcworld|greenbot|gamestar","i");if(clickParentsUntilDrr.hasClass("fakesidebar")){linkLocation="FSB";}else if(clickParentsUntilDrr.hasClass("end-note")){linkLocation="End Note";}else{linkLocation="Body";}if(regex.test(clickUrl)){linkType="Internal";}else{linkType="External";}dataLayer.push({'event':'editBodyLink','eventCategory':'Editorial Body Links','eventAction':linkType,'eventLabel':linkLocation+" | "+clickText+" | "+clickUrl});});</script>
+<div class="apart-alt tags">
+<span class="related">Related: </span>
+<ul>
+<li><a href="https://www.infoworld.com/category/application-development" automate_uuid="18a52f7b-0ae4-49f6-bffd-f293d1a27e6c">Software Development</a></li>
+<li><a href="https://www.infoworld.com/category/devops" automate_uuid="fb298775-3135-425b-9e23-deb5cdfd5a67">Devops</a></li>
+</ul>
+</div>
+<div class="byline vcard author end-byline">
+<div class="author-info">
+<p class="bio">Paul Krill is an editor at large at InfoWorld, whose coverage focuses on application development.</p>
+</div><!-- end .author-info -->
+<div class="brand-social">
+<div class="follow-text">Follow</div>
+<ul class="social-links">
+<li>
+<a href="https://www.infoworld.com/author/Paul-Krill/" automate_uuid="90d1e42a-59c6-4474-aa59-0711e411546a">
+<i class="ss-icon ss-user"></i>
+</a>
+</li>
+<li>
+<a href="mailto:paul_krill@infoworld.com" automate_uuid="de6bd1a7-622f-470c-ab12-7184049a1d8c">
+<i class="ss-icon ss-mail"></i>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/pjkrill" class="twitter-follow" target="_blank" automate_uuid="113b08e0-c566-49c0-96e2-cb9d9b57c64e">
+<i class="ss-icon ss-social ss-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://plus.google.com/108289165450818957590" class="googleplus-follow" target="_blank" automate_uuid="3f42f3b4-5798-4e02-9d61-0dfc31b60c8d">
+<i class="ss-icon ss-social ss-googleplus"></i>
+</a>
+</li>
+<li>
+<a href="https://www.infoworld.com/author/Paul-Krill/index.rss" class="rss" automate_uuid="f3196793-6c59-46ef-be9b-0afa0b650639">
+<i class="ss-icon ss-social ss-rss"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/embedder.js.download"></script>
+</section><!-- /.bodee -->
+<div id="content-recommender" class="nolinks norewrite">
+<div class="head">You Might Like</div>
+<div id="rcjsload_e828b1"><script id="rc_452" type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/serve.js.php" async=""></script></div>
+<script type="text/javascript">(function(){function ad_block_test(e,o){if("undefined"!=typeof document.body){var t="0.1.2-dev",o=o?o:"sponsorText",n=document.createElement("DIV");n.id=o,n.style.position="absolute",n.style.left="-999px",n.appendChild(document.createTextNode("&nbsp;")),document.body.appendChild(n),setTimeout(function(){if(n){var o=0==n.clientHeight;try{}catch(d){console&&console.log&&console.log("ad-block-test error",d)}e(o,t),document.body.removeChild(n)}},175)}}ad_block_test(function(is_blocked){var widget_id=30205;if(is_blocked===true){widget_id=30284;}var referer="";try{if(referer=document.referrer,"undefined"==typeof referer)throw"undefined"}catch(exception){referer=document.location.href,(""==referer||"undefined"==typeof referer)&&(referer=document.URL)}referer=referer.substr(0,700);var rcel=document.createElement("script");rcel.id='rc_'+Math.floor(Math.random()*1000);rcel.type='text/javascript';rcel.src="//trends.revcontent.com/serve.js.php?w=30205&t="+rcel.id+"&c="+(new Date()).getTime()+"&width="+(window.outerWidth||document.documentElement.clientWidth)+"&referer="+referer+'&is_blocked='+is_blocked;rcel.async=true;var rcds=document.getElementById("rcjsload_e828b1");rcds.appendChild(rcel);});})();</script>
+</div>
+<div class="lazyload_ad">
+<code type="text/javascript">
+<!--
+		document.write('<div id="ciu" class=" ad-container">');
+		IDG.GPT.addDisplayedAd("ciu", "true");
+		IDG.GPT.addLazyloadedAd("ciu", "true");
+		document.write('</div>');
+		$('#ciu').responsiveAd({screenSize:'971 1115', scriptTags: []});
+		if (Object.keys(IDG.GPT.companions).length > 0 || IDG.GPT.disableInitialLoad) {
+			IDG.GPT.refreshAd('ciu');
+		}
+		//-->
+</code>
+</div>
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/sponsored-links.css">
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/sponsored-links(1).css">
+<section id="resources-sponsored-links" class="show">
+<section class="sponsored-links">
+<div class="head">Sponsored Links</div>
+<ul class="first">
+<li>
+<a rel="nofollow" target="_blank" href="http://pubads.g.doubleclick.net/gampad/clk?id=4516344656&amp;iu=/8456/IDG.US_E_InfoWorld.com" onclick="moduleTrack(&#39;Sponsored Links&#39;,&#39;resources-sponsored-links component&#39;)" automate_uuid="0b0dac58-559c-491d-9a25-2c20573946e3">
+INSTANTLY dtSearch® TERABYTES of FILE+EMAIL+DB+WEB DATA; reviews &amp; evals
+</a>
+</li>
+</ul>
+</section>
+</section>
+</article>
+</section><!-- /role=main -->
+</div><script type="text/javascript" id="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/spm.v1.min.js.download"></script><script type="text/javascript" id="">var firstSessionDate=google_tag_manager["GTM-5C7C8C"].macro('gtm1'),lastSessionDate=google_tag_manager["GTM-5C7C8C"].macro('gtm2'),currentSessionDate=google_tag_manager["GTM-5C7C8C"].macro('gtm3'),sessionNumber=google_tag_manager["GTM-5C7C8C"].macro('gtm4')||1,inSession=google_tag_manager["GTM-5C7C8C"].macro('gtm5'),daysSinceLastSession=0,currentTime=new Date,longExpiry=15768E8;
+if("undefined"===typeof firstSessionDate)google_tag_manager["GTM-5C7C8C"].macro('gtm6')("inSession",!0,18E5,"/"),lastSessionDate=firstSessionDate=currentSessionDate=currentTime.toUTCString(),google_tag_manager["GTM-5C7C8C"].macro('gtm7')("firstSessionDate",firstSessionDate,longExpiry,"/"),google_tag_manager["GTM-5C7C8C"].macro('gtm8')("currentSessionDate",currentSessionDate,longExpiry,"/"),google_tag_manager["GTM-5C7C8C"].macro('gtm9')("sessionNumber",sessionNumber,longExpiry,"/"),google_tag_manager["GTM-5C7C8C"].macro('gtm10')("lastSessionDate",lastSessionDate,longExpiry,"/");else if("undefined"===typeof inSession&&(google_tag_manager["GTM-5C7C8C"].macro('gtm11')("inSession",
+!0,18E5,"/"),sessionNumber=+sessionNumber+1,google_tag_manager["GTM-5C7C8C"].macro('gtm12')("sessionNumber",sessionNumber,longExpiry,"/"),lastSessionDate=currentSessionDate,google_tag_manager["GTM-5C7C8C"].macro('gtm13')("lastSessionDate",lastSessionDate,longExpiry,"/"),currentSessionDate=currentTime.toUTCString(),google_tag_manager["GTM-5C7C8C"].macro('gtm14')("currentSessionDate",currentSessionDate,longExpiry,"/")),"undefined"!=typeof lastSessionDate){var lastSessionMS=(new Date(lastSessionDate)).getTime();daysSinceLastSession=Math.round((currentTime.getTime()-lastSessionMS)/
+864E5)}dataLayer.push({event:"Session Vars Set",daysSinceLastSession:daysSinceLastSession,firstSessionDate:firstSessionDate,lastSessionDate:lastSessionDate,sessionNumber:sessionNumber});</script>
+<script type="text/javascript" id="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/front.asp.download"></script><!-- /#page-wrapper -->
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/foot.css">
+<link rel="stylesheet" href="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/foot(1).css">
+<footer>
+<section class="brand" itemscope="" itemtype="http://schema.org/Organization">
+<link itemprop="url" href="http://www.infoworld.com/">
+<a href="https://www.infoworld.com/" automate_uuid="7d6b6b82-a951-405d-8221-b430162749b0"><span class="logo">InfoWorld</span></a>
+<span class="tagline"> </span>
+<span class="follow">
+<label>Follow us</label>
+<ul>
+<li><a href="https://twitter.com/infoworld" itemprop="sameAs" rel="nofollow" target="_blank" onclick="brandFollowTrack(&#39;Twitter&#39;)" automate_uuid="22e02c2c-8482-41b8-807d-9cc1d1119b0f"><i class="ss-icon ss-social-circle ss-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/company/164364" itemprop="sameAs" rel="nofollow" target="_blank" onclick="brandFollowTrack(&#39;LinkedIn&#39;)" automate_uuid="89804318-89da-43d5-ba97-ab4ed56857a2"><i class="ss-icon ss-social-circle brand ss-linkedin"></i></a></li>
+<li><a href="https://www.facebook.com/InfoWorld" itemprop="sameAs" rel="nofollow" target="_blank" onclick="brandFollowTrack(&#39;Facebook&#39;)" automate_uuid="c9f20d1e-a208-4bb7-978e-be66f066a356"><i class="ss-icon ss-social-circle brand ss-facebook"></i></a></li>
+<li><a href="https://plus.google.com/100116140147692954063/posts" itemprop="sameAs" rel="publisher" target="_blank" onclick="brandFollowTrack(&#39;Google+&#39;)" automate_uuid="5605e0c3-5746-498b-82a6-7f0cff955cd1"><i class="ss-icon ss-social-circle brand ss-googleplus"></i></a></li>
+<li><a href="https://www.infoworld.com/index.rss" target="_blank" automate_uuid="d60e64a8-62ba-40cc-9ae6-362e16741199"><i class="ss-icon ss-social-circle ss-rss"></i></a></li>
+<li><a href="https://www.infoworld.com/newsletters/signup.html" automate_uuid="109dd838-a16f-4744-8c10-ef1d087e858f"><i class="ss-icon ss-social-circle ss-mail"></i></a></li>
+</ul>
+</span>
+</section>
+<section class="topics">
+<nav id="ft1">
+<ul>
+<li><a href="https://www.infoworld.com/category/analytics/" automate_uuid="b2a3d755-cf96-4c59-b9cf-fe77355c5a18">Analytics</a>
+</li>
+<li><a href="https://www.infoworld.com/category/it-careers/" automate_uuid="924353a6-43a7-41fb-b3e7-88db1918d4b3">Careers</a>
+</li>
+<li><a href="https://www.infoworld.com/category/cloud-computing/" automate_uuid="1cd3533a-45f2-4c18-afef-9f68eef48c23">Cloud Computing</a>
+</li>
+<li><a href="https://www.infoworld.com/category/collaboration/" automate_uuid="8ce02206-282b-40c9-9a41-519e671731fc">Collaboration</a>
+</li>
+<li><a href="https://www.infoworld.com/category/containers/" automate_uuid="f7547e65-0cec-4930-979b-23456e6bbea0">Containers</a>
+</li>
+<li><a href="https://www.infoworld.com/category/data-center/" automate_uuid="c2251667-70b2-4c78-ba09-006c64d01290">Data Centers</a>
+</li>
+<li><a href="https://www.infoworld.com/category/database/" automate_uuid="f6aef751-341e-4284-b381-6f59b4aa3a9a">Databases</a>
+</li>
+<li><a href="https://www.infoworld.com/category/hardware/" automate_uuid="9dcc9a7c-68a9-4e06-8842-4d62a27b8fd1">Hardware</a>
+</li>
+<li><a href="https://www.infoworld.com/category/internet-of-things/" automate_uuid="e6b6c24a-3d30-4a20-85b8-5797ae8eec7b">Internet of Things</a>
+</li>
+<li><a href="https://www.infoworld.com/category/machine-learning/" automate_uuid="163b8921-88cf-45a6-8414-8d19ad5b4da0">Machine Learning</a>
+</li>
+<li><a href="https://www.infoworld.com/category/mobile-technology/" automate_uuid="f7ad27b3-a489-4060-9dcf-af199a1d4c92">Mobile</a>
+</li>
+<li><a href="https://www.infoworld.com/category/networking/" automate_uuid="098c952e-a57a-4e9d-95ca-2c9566ebd2f7">Networking</a>
+</li>
+<li><a href="https://www.infoworld.com/category/open-source-tools/" automate_uuid="7916522d-d931-42de-aa77-f97299ec3a8b">Open Source</a>
+</li>
+<li><a href="https://www.infoworld.com/category/operating-systems/" automate_uuid="036ca7a9-9af7-4517-a1e2-ac79488fff33">Operating Systems</a>
+</li>
+<li><a href="https://www.infoworld.com/category/security/" automate_uuid="17f35c45-5910-48c1-87bc-b280267ec300">Security</a>
+</li>
+<li><a href="https://www.infoworld.com/category/software/" automate_uuid="f97e0426-6a3d-4a7b-b5ec-b1e10dedec41">Software</a>
+</li>
+<li class="selected"><a href="https://www.infoworld.com/category/application-development/" class="active" automate_uuid="e014c72f-8350-4f94-9f95-2f4114100eae">Software Development</a>
+</li>
+<li><a href="https://www.infoworld.com/category/storage/" automate_uuid="d91c5513-0390-485b-b5b0-b096317aaa70">Storage</a>
+</li>
+<li><a href="https://www.infoworld.com/category/virtualization/" automate_uuid="fc8ec705-b417-4f55-a0f6-a8353664fbbd">Virtualization</a>
+</li>
+</ul>
+</nav>
+<nav id="ft2">
+<ul>
+<li><a href="https://www.infoworld.com/news" automate_uuid="18465863-3c91-4a22-9fe0-d16ffb6c959a">News</a></li>
+<li><a href="https://www.infoworld.com/blogs" automate_uuid="16f3becb-69c7-4eed-a3c4-31c1447dd129">Blogs</a></li>
+<li><a href="https://www.infoworld.com/reviews" automate_uuid="22615056-582c-4586-bce2-dc1e721d02fb">Reviews</a></li>
+<li><a href="https://www.infoworld.com/insider" automate_uuid="b442e8eb-984a-4bee-a29d-20411307e92c">Insider</a></li>
+<li><a href="https://www.infoworld.com/resources" automate_uuid="ffd89ce2-8aa2-493e-94cc-29140afc2b5e">Resources</a></li>
+<li><a href="https://www.infoworld.com/newsletters/signup.html" automate_uuid="78752d22-acbb-49ec-816e-c3216d9cf48d">Newsletters</a></li>
+</ul>
+</nav>
+</section>
+<section class="about">
+<div class="wrapper">
+<nav class="tertiary" id="ft3">
+<ul>
+<li><a href="https://www.infoworld.com/about/about.html" automate_uuid="be2e6916-6b76-49b1-b4ab-3830e29d7ba9">About Us</a>
+</li><li><a href="https://www.infoworld.com/about/contactus.html" automate_uuid="5d057048-952a-43f0-881c-cfb8e2e87f17">Contact</a>
+</li><li><a href="https://www.infoworld.com/about/privacy.html" automate_uuid="6791953c-9e24-4eca-9d38-bec6001f6a95">Privacy Policy</a>
+</li><li><a href="https://www.idgenterprise.com/reach/infoworld/" target="_blank" rel="nofollow" automate_uuid="2289b26d-014e-4ae1-a48c-b2d9c72c9d17">Advertising</a>
+</li><li><a href="https://www.idg.com/work-here/" target="_blank" rel="nofollow" automate_uuid="0e418d4c-6dd9-4ea7-9cd6-630ebc689763">Careers at IDG</a>
+</li><li><a href="https://www.infoworld.com/about/adchoices.html" automate_uuid="02f5c115-20be-47b4-b00c-38be0f0ccc29">Ad Choices</a>
+</li><li><a href="https://www.infoworld.com/about/affiliates.html" automate_uuid="14fb0812-2d34-4bd7-a688-dc002fcc5e29">E-commerce Affiliate Relationships</a>
+</li></ul>
+</nav>
+</div>
+</section>
+<section class="copyright">
+<div class="wrapper">
+<p><a href="https://www.infoworld.com/about/copyright.html" automate_uuid="0f9f3483-9c37-4c7b-9dcc-dfbac7d07234">Copyright</a> © 2018 IDG Communications, Inc.</p>
+<div class="network">
+<div id="network-selector">
+<div class="label">Explore the IDG Network <i class="ss-icon tick">descend</i></div>
+<ul>
+<li><a href="https://www.cio.com/" target="_blank" rel="nofollow" automate_uuid="e1f46786-6100-4464-acab-8a07d926d98c">CIO</a></li>
+<li><a href="https://www.computerworld.com/" target="_blank" rel="nofollow" automate_uuid="d84035de-f949-4bcd-8f0f-0aa88343586d">Computerworld</a></li>
+<li><a href="https://www.csoonline.com/" target="_blank" rel="nofollow" automate_uuid="7d3bf5f2-f492-4115-a529-e129100bd7f0">CSO</a></li>
+<li><a href="https://www.gamestar.com/" target="_blank" rel="nofollow" automate_uuid="b0839169-a5db-438e-9865-4ee107f99fd4">GameStar</a></li>
+<li><a href="https://www.greenbot.com/" target="_blank" rel="nofollow" automate_uuid="465a5589-2e61-4653-94fd-d1836dfd43fb">Greenbot</a></li>
+<li><a href="https://www.idc.com/" target="_blank" rel="nofollow" automate_uuid="ca525c6e-0868-495f-b509-6f1405b7c756">IDC</a></li>
+<li><a href="https://www.idg.com/" target="_blank" rel="nofollow" automate_uuid="30120415-16c2-4fe2-811f-ae77b367d94a">IDG</a></li>
+<li><a href="https://www.idgconnect.com/" target="_blank" rel="nofollow" automate_uuid="b2b05f43-5b8d-454f-b956-c51ba061434b">IDG Connect</a></li>
+<li><a href="https://www.idgtechnetwork.com/" target="_blank" rel="nofollow" automate_uuid="1f3d40bb-1af6-43b1-8d66-7757248c4d80">IDG TechNetwork</a></li>
+<li><a href="https://www.idg.tv/" target="_blank" rel="nofollow" automate_uuid="4037fc6f-68eb-487d-a9d2-c43734336069">IDG.TV</a></li>
+<li><a href="https://www.idgventures.com/" target="_blank" rel="nofollow" automate_uuid="a532cebe-1315-445f-b8f3-44ce6cb0afb9">IDG Ventures</a></li>
+<li><a href="https://www.infoworld.com/" target="_blank" rel="nofollow" automate_uuid="8750e2a7-e9f2-4fef-9eca-8e3a5058ff14">Infoworld</a></li>
+<li><a href="https://www.itnews.com/" target="_blank" rel="nofollow" automate_uuid="6b3ad299-2544-46f7-ade3-06c3e3132e19">IT News</a></li>
+<li><a href="https://www.itwhitepapers.com/" target="_blank" rel="nofollow" automate_uuid="222ab329-c3ee-44d4-8e5e-86e05357e3c2">ITwhitepapers</a></li>
+<li><a href="https://www.itworld.com/" target="_blank" rel="nofollow" automate_uuid="dbb06730-0c98-453b-b0ef-8716ff180a65">ITworld</a></li>
+<li><a href="https://www.javaworld.com/" target="_blank" rel="nofollow" automate_uuid="5967a7a1-9361-4151-bae9-23ad1cc022ea">JavaWorld</a></li>
+<li><a href="https://www.linuxworld.com/" target="_blank" rel="nofollow" automate_uuid="b43b6ac0-2ada-4351-beae-3fcae217b67b">LinuxWorld</a></li>
+<li><a href="https://www.macworld.com/" target="_blank" rel="nofollow" automate_uuid="aa2367be-ed54-49f2-925d-1a405fc0a4f7">Macworld</a></li>
+<li><a href="https://www.networkworld.com/" target="_blank" rel="nofollow" automate_uuid="5268c0ea-d9db-4fa7-809f-8d0734a66fac">Network World</a></li>
+<li><a href="https://www.pcworld.com/" target="_blank" rel="nofollow" automate_uuid="ad9aed64-bbf8-4aa0-9028-5e1d67c9f840">PCWorld</a></li>
+<li><a href="https://www.techconnect.com/" target="_blank" rel="nofollow" automate_uuid="4e1f3b53-8688-4d0f-851e-0461476db7e8">TechConnect</a></li>
+<li><a href="https://www.techhive.com/" target="_blank" rel="nofollow" automate_uuid="b253ae28-746d-44ad-be5e-08b339703e96">TechHive</a></li>
+</ul>
+</div><!-- /#network-selector -->
+</div><!-- /.network -->
+</div><!-- /.wrapper -->
+</section>
+</footer>
+
+<script type="text/javascript" id="">Sailthru.init({customerId:"15048a979f9e43e0bcdcd131b5cf2bcb",useStoredTags:!1});</script><script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/mouse_down.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jquery-ui.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jquery.dfp.min.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/shortstack_nav.js.download"></script>
+<div id="mobilewelcomead" class=" ad-container">
+</div>
+<script type="text/javascript">IDG.GPT.addDisplayedAd("mobilewelcomead","true");$('#mobilewelcomead').responsiveAd({screenSize:'971 1115',scriptTags:[]});IDG.GPT.log("Creating ad: mobilewelcomead - [971 1115]");</script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/tracking.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/autocomplete.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/social_sidecar.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jquery.colorbox-min.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/article.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/prettify.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/responsive-tables.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jquery.tablesorter.min.js.download"></script>
+<script>$(document).ready(function(){$("table.tablesorter").tablesorter({widgets:['zebra']});$("table.tablesorter tbody tr").hover(function(){$(this).toggleClass("selected");});$("table.tablesorter thead tr th").each(function(){if($(this).find('.ss-icon').length<1){$(this).append('<i class="ss-icon"></i>');}});});</script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jquery.lazyload.min.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/global.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/ss-social.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/ss-standard.js.download"></script>
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/brandAnalytics.js.download"></script>
+<!-- Begin BlueKai Tag -->
+<iframe name="__bkframe" height="0" width="0" frameborder="0" src="javascript:void(0)" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/saved_resource(2).html"></iframe>
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/bk-coretag.js.download"></script>
+<!-- CryptoJS -->
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/md5.js.download"></script>
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/idg_bk_coreapi.js.download"></script>
+<script type="text/javascript">bk_allow_multiple_calls=true;var blueKaiId=14345;var blueKaiPort=10;var brandCode="ifw";var regUrl="https://regdev.idge.int/api/"
+var daysToRefresh=30;var bk_debug_log=false;regUrl="https://reg.idgenterprise.com/api/";daysToRefresh=30;if(typeof(s)!='undefined'){bk_addPageCtx("pageType",(typeof(s.pageType)!='undefined')?s.pageType:'');}bk_addPageCtx("cmscatids","[3646,3808]");bk_addPageCtx("cmpy","[]");bk_addPageCtx('tid','6');params=getUrlParams('phint');if(Object.keys(params).length>0){bk_addPageCtx("idg_eid",params['idg_eid']);bk_addPageCtx("newt",params['newt']);bk_addPageCtx("isnl","1");}try{IDG.bkCoreApi.start();}catch(e){bk_doJSTag(blueKaiId,blueKaiPort);if(window.console&&window.console.log){window.console.log("Error Occured While Processing Profile Siubmission")}}$('article, #slideshowCarousel').on('click','.product-list-price, .btn-amazon, .productLink',function(e){var $linkEl=$(e.target);var po=$linkEl.data('po');if($.inArray(po,['amazon','vendor','other'])>=0){if(po=='amazon'){var prCat=$linkEl.data('bkc');if(typeof prCat!='undefined'){bk_addPageCtx('event','AmazonClick'+prCat);}bk_addPageCtx('event','AmazonClickSoftwareDevelopment');bk_addPageCtx('event','AmazonClickDevops');}var prMfr=$linkEl.data('bkmfr');if(typeof prMfr!='undefined'){bk_addPageCtx('event','eCommerceMFR'+prMfr);}var prVndr=$linkEl.data('bkvndr');if(typeof prVndr!='undefined'){bk_addPageCtx('event','eCommerceClickVendor'+prVndr);}bk_doJSTag(34202,1);}});</script>
+<!-- End BlueKai Tag -->
+<div id="catfish" class=" ad-container">
+</div>
+<script type="text/javascript">IDG.GPT.addDisplayedAd("catfish","true");$('#catfish').responsiveAd({screenSize:'971 1115',scriptTags:[]});IDG.GPT.log("Creating ad: catfish - [971 1115]");</script>
+<!--  Begin gpt-skin/inread -->
+<div id="gpt-skin" class=" ad-container" data-google-query-id="CP6zzI_M69kCFY7JZAod9AoJCw" style="display: none;">
+<div id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_0" title="3rd party ad content" name="google_ads_iframe_/8456/IDG.US_E_Infoworld.com/application-development_section_0" width="1" height="1" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/saved_resource(3).html"></iframe></div></div>
+<script type="text/javascript">IDG.GPT.addDisplayedAd("gpt-skin","true");IDG.GPT.displayGoogleTagSlot('gpt-skin');</script>
+<!--  End gpt-skin/inread -->
+<script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/jquery.lazyload-ad.js.download"></script>
+<script type="text/javascript">$("div.lazyload_ad").lazyLoadAd({threshold:0,forceLoad:false,onLoad:false,onComplete:false,timeout:1500,debug:false,xray:false});</script>
+<script type="text/javascript">g_arrModules['']=true;g_arrModules['Article Detail:Top:Breadcrumb']=true;g_arrModules['Article Detail:Social Sharing Vertical']=true;g_arrModules['']=true;$('#resources-sponsored-links').addClass('show');</script>
+<!-- Begin comScore Tag -->
+<script>var _comscore=_comscore||[];_comscore.push({c1:"2",c2:"6035308",c3:"",c5:"Software Development",c6:"Article: Feature",c15:"3070454"});(function(){var s=document.createElement("script"),el=document.getElementsByTagName("script")[0];s.async=true;s.src=(document.location.protocol=="https:"?"https://sb":"http://b")+".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s,el);})();</script>
+<noscript>
+&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=6035308&amp;cv=2.0&amp;cj=1"/&gt;
+</noscript>
+<!-- End comScore Tag -->
+<script language="JavaScript" type="text/javascript">var omniture_account="infoworld-production";var omniture_trackingServer="idgenterprise.d1.sc.omtrdc.net";g_sOmnitureReportSuite="infoworld-production";$(document).ready(function(){if(!!$('.sharing-tools').length||!!$('#ss-share').length||(!!$('#sharer').length&&!!!$('#sharer.sidecar').length)){Socialite.load();Socialite.setup({twitter:{lang:'en',onclick:function(e){socialTrack("Article","Twitter","Click");},ontweet:function(e){socialTrack("Article","Twitter","Tweet");$thm.logPlEvent({"b":"ifw","e":"twshare","t":"article","id":"3070454"});},onretweet:function(e){socialTrack("Article","Twitter","Retweet");},onfavorite:function(e){socialTrack("Article","Twitter","Favorite");},onfollow:function(e){socialTrack("Article","Twitter","Follow");followTrack();}},facebook:{lang:'en_US',appId:'196366870381968',onlike:function(url){socialTrack("Article","Facebook","Like");$thm.logPlEvent({"b":"ifw","e":"fblike","t":"article","id":"3070454"});},onunlike:function(url){socialTrack("Article","Facebook","Unlike");},xfbml:true,version:'v2.1'},googleplus:{lang:'en-US',callback:function(el,e){socialTrack("Article","Googleplus","Click");$thm.logPlEvent({"b":"ifw","e":"googplus","t":"article","id":"3070454"});}}});$('#ss-share').show();}$('a.pinterest-pinit').click(function(e){socialTrack('Article','Pinterest','share');});$('li.redditShare').click(function(e){socialTrack('Article','Reddit','share');});$('li.stumbleUponShare').click(function(e){socialTrack('Article','StumbleUpon','share');});$('.banner-tw').click(function(e){brandFollowTrack("twitter");});$('.banner-fb').click(function(e){brandFollowTrack("facebook");});$('.mediaresource #download-asset').click(function(e){Analytics.logAssetDownload($(this).data('id'));});if(typeof(FB)!='undefined'){FB.Event.subscribe('edge.create',function(response){s=s_gi(g_sOmnitureReportSuite);s.linkTrackEvents=s.events="event36";s.prop48="facebook share";s.linkTrackVars="prop48,events";s.tl(true,'o','Social Media share');});}if(typeof(digMag)!='undefined'){if(typeof(digLogin)!='undefined'){DigAnalytics.logSignIn(digLogin);}}});var Analytics=new Object();Analytics.logArticleComment=function(){s=s_gi(g_sOmnitureReportSuite);s.linkTrackVars="prop25,eVar25,events";s.linkTrackEvents="event19";s.events="event19";s.prop25='Article Comment';s.tl(this,'o','Article Comments');};Analytics.logSocialSignin=function(provider){s=s_gi(g_sOmnitureReportSuite);s.linkTrackEvents=s.events="event32";s.prop19=provider;s.linkTrackVars="prop19,events";s.tl(true,'o',provider);};Analytics.logInternalSignin=function(){s=s_gi(g_sOmnitureReportSuite);s.linkTrackEvents=s.events="event32";s.prop19="Internal Login";s.linkTrackVars="prop19,events";s.tl(true,'o','Login');};Analytics.logAssetDownload=function(assetname){s=s_gi(g_sOmnitureReportSuite);s.linkTrackVars="prop52,eVar37,events";s.linkTrackEvents="event49";s.pagename='filetype:'+s.pagename;s.events="event49";s.prop52='asset:'+assetname;eVar37=s.prop52;s.tl(this,'o','Asset Download');}
+function socialTrack(loc,network,socialAction){var trackString=network+":"+loc+":"+socialAction;console.log("socialTrack() "+trackString);s.prop48=trackString;s.eVar27="D=c48";s.event36=trackString;s.linkTrackEvents=s.events="event36";s.linkTrackVars="prop48,eVar27,events";s.tl(true,'o','Social media');}function linkedInTrack(){socialTrack("Article","LinkedIn","Share");};function followTrack(){console.log("followTrack()");s=s_gi(g_sOmnitureReportSuite);s.linkTrackEvents=s.events="event37";s.prop49="social media";s.linkTrackVars="prop49,events";s.tl(true,'o','Social media follow');}function brandFollowTrack(network){console.log("brandFollowTrack()");s=s_gi(g_sOmnitureReportSuite);s.eVar16="followed on:"+network;s.linkTrackEvents=s.events="event37";s.prop49="social media";s.linkTrackVars="prop49,eVar16,events";s.tl(true,'o','Social media brand follow');if(typeof IDG.Eloqua!="undefined"){IDG.Eloqua.invoke_flash("social-"+network);}}function sharingTrack(type,pixelLogString){s=s_gi(g_sOmnitureReportSuite);s.eVar16="Sharing on: "+type;s.linkTrackEvents=s.events="event37";s.prop49="social media sharing";s.linkTrackVars="prop49,eVar16,events";s.tl(true,'o','Social Media Sharing');if(typeof IDG.Eloqua!="undefined"){IDG.Eloqua.invoke_flash("social-"+type);}if(pixelLogString!==undefined){$thm.logPlEvent({"b":"ifw","e":pixelLogString,"t":"article","id":"3070454"});}}function moduleTrack(moduleName,loc){console.log("moduleTrack()");s=s_gi(g_sOmnitureReportSuite);s.eVar42=moduleName;s.eVar44=loc;s.linkTrackEvents=s.events='event31';s.list3=s.prop42+","+s.eVar42;s.tl(true,'o','Module click');}function trackSlideshow(articleId,slideTitle,slideNumber){s=s_gi(g_sOmnitureReportSuite);s.prop15="page number:"+slideNumber;s.eVar15="D=c15";s.tl(true,'o','Track Slideshow: articleId:'+articleId+' title:'+slideTitle+" Slide No.:"+slideNumber);}function oClickTrack(key){if(typeof(key)!='undefined'&&key.length>0){s=s_gi(g_sOmnitureReportSuite);s.linkTrackVars="eVar42,events";s.events="event49";s.linkTrackEvents="event49";s.eVar42=key;s.list3=s.prop42+","+s.eVar42;s.tl(true,'o','module click');}};</script>
+<!-- SiteCatalyst code version: H.26.2.
+Copyright 1996-2013 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/s_code.js.download"></script>
+<script language="JavaScript" type="text/javascript" id="omniVars">g_sOmnitureReportSuite=typeof g_sOmnitureReportSuite!='undefined'&&g_sOmnitureReportSuite?g_sOmnitureReportSuite:"infoworld-production";s.pageName="InfoWorld:article:feature:Software Development:3070454:Beyond Jenkins: 7 devops tools";s.pageType="";if(typeof omnitureChannel!='undefined'){s.channel=omnitureChannel;}s.prop1="source:infoworld";s.eVar1="D=c1";s.prop2="content type:feature";s.eVar2="D=c2";s.prop3="display type:article:feature";s.eVar3="D=c3";s.prop4="664 days";s.eVar4="D=c4";s.prop6="";s.prop7="";s.eVar7="D=c7";s.prop9="category:software development";s.eVar9="D=c9";s.prop11="published:19-May-16";s.eVar11="D=c11";s.prop12="aid:3070454";s.eVar12="D=c12";s.prop13="";s.eVar13="D=c13";s.prop14="author:paul krill";s.eVar14="D=c14";s.prop15="page number:1";s.eVar15="D=c15";s.prop17="uri:/article/3070454/application-development/beyond-jenkins-7-devops-tools.html";s.eVar17="D=c17";s.prop18="";s.eVar18="D=c18";s.prop24=getLoginStatusForOmniture();s.eVar24="D=c24";s.prop28=getTrackingToken('tk')?"tokens:"+getTrackingToken('tk'):"";s.eVar28="D=c28";s.prop37="rpn:ifw:feature:infoworld:article:feature:software development:3070454:beyond jenkins: 7 devops tools";s.eVar37="D=c37";s.prop39="";s.eVar39="D=c39";s.prop40="";try{s.prop41=IDG.GPT.getDisplayedAds(',')+','+IDG.GPT.getOtherAds(',');s.prop42=IDG.GPT.getModules(',');s.eVar42="D=c42";}catch(e){console.log("error in setting omniture vars: "+e);}s.prop53="3646";s.eVar53="D=c53";s.prop54="software development,devops";s.eVar30="D=c54";s.eVar33=s.prop55="3646,3808";s.eVar33="D=c55";s.prop56="";s.eVar40="D=c56";s.prop61="";s.eVar10="D=c61";s.prop74="architecture";s.eVar58="D=c74";s.prop75="software-development";s.eVar60="D=c75";s.prop58="architecture:software-development";s.eVar59="D=c58";var sModules='';for(var i in g_arrModules){if(g_arrModules[i]&&i!=''){sModules+=i+',';}}sModules=sModules.replace(/,$/,'');s.prop42=sModules;s.eVar42="D=c42";s.events="";s.events=s.apl(s.events,'event33',',');s.eVar41="19-May-16";s.list3=s.prop42+","+s.eVar42;for(var p in s){if(s[p]&&p.match(/^(prop|ceVar)\d+$/)){s[p]=s[p].toLowerCase();}}s.campaign=s.getQueryParam('cid');var s_code=s.t();if(s_code)document.write(s_code)</script>
+<script language="JavaScript" type="text/javascript">if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')</script><noscript>&lt;img src="http://idgenterprise.d1.sc.omtrdc.net/b/ss/infoworld-production/1/H.25--NS/0" height="1" width="1" border="0" alt=""/&gt;</noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.26.2. -->
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+<span id="parsely-cfg" data-parsely-site="infoworld.com"></span>
+<script id="parsely-script" async="" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/p.js.download"></script></div>
+<script>(function(s,p,d){var h=d.location.protocol,i=p+"-"+s,e=d.getElementById(i),r=d.getElementById(p+"-root"),u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net":"static."+p+".com";if(e)return;e=d.createElement(s);e.id=i;e.async=true;e.src=h+"//"+u+"/p.js";r.appendChild(e);})("script","parsely",document);</script>
+<!-- END Parse.ly Include: Standard -->
+<script type="text/javascript">$thm.logPlEvent({"b":"ifw","e":"view","t":"article","id":"3070454"});</script>
+<div id="loginModal"></div>
+<div id="logoffModal"></div>
+<script type="text/javascript">a=top;f=self;if(a!=f){a.location=f.location;}</script>
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div><div style="display: none; visibility: hidden;"><script>(function(){var g="1100laKZ",d='[href^\x3d"https://apple.com"],[href*\x3d"store"],[href*\x3d"www"],[href^\x3d"http://apple.com"]',e="(http(s)?://((www|store)(.))?apple.com)(/(uk|au|ca|ie|nl|se|de))?",f=new RegExp(e+"(/.*)","i"),h=/(\/browse\/home\/specialdeals)|(\/macos\/high-sierra-preview)|(\/homepod)|(\/newsroom)|(\/imac-pro)|(\/iphone-8\/specs)|(\/iphone-x\/specs)|(\/apple-tv-4k\/specs)|(aos.prf.hn)/i;$('a[href*\x3d"apple.com"]').filter(d).each(function(d,e){var b=$(this).attr("href");if(f.test(b)&&
+!h.test(b)){var c=b.replace(f,"$8");var a="http://aos.prf.hn/click/camref:"+g+"/destination:http://www.apple.com";0<=b.indexOf("store.")&&(a+="/shop");a+=c;c=10;0<=a.indexOf("/shop/")&&(c+=1);b="/";a=a.split(b).slice(0,c);a=a.join(b);$(this).attr("href",a)}})})();</script></div><div style="display: none; visibility: hidden;"><script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/snippet.js.download"></script>
+<script type="text/javascript">var tsid=14160;Georiot.snippet.convertToGeoRiotLinks(tsid);Georiot.microsoft.convertToGeoRiotLinks(tsid);</script></div><script type="text/javascript" id="">$(".related-promo-wrapper li:not('.question') a").each(function(){$(this).attr("href",$(this).attr("href")+"#tk.drr_mlt")});$(".popular-col .promo a").each(function(){$(this).attr("href",$(this).attr("href")+"#tk.revfun_poplr")});$(".featured-col .promo a").each(function(){$(this).attr("href",$(this).attr("href")+"#tk.revfun_feat")});</script><script type="text/javascript" id="">/*
+ @preserve
+ jquery.scrolldepth.js | v1.0
+ Copyright (c) 2016 Rob Flaherty (@robflaherty)
+ Licensed under the MIT and GPL licenses.
+*/
+(function(a){"function"===typeof define&&define.amd?define(["jquery"],a):"object"===typeof module&&module.exports?module.exports=a(require("jquery")):a(jQuery)})(function(a){var p={minHeight:0,percentage:!0,pixelDepth:!0,nonInteraction:!0,gtmOverride:!1,trackerName:!1,dataLayer:"dataLayer"},f=a(window),g=[],h=0,m;a.scrollDepth=function(b){function q(c,a,e,v){if(m&&b.pixelDepth&&2<arguments.length&&e>h){h=e;var d=!0;"undefined"!==typeof a&&"25%"!==a&&(d=!1);m({event:"ScrollDistance",scrollEventCategory:"Scroll Depth",
+scrollEventAction:a,scrollEventLabel:(250*Math.floor(e/250)).toString()+"px",eventValue:1,eventNonInteraction:d})}}function r(c,d,e){a.each(c,function(c,b){-1===a.inArray(c,g)&&d>=b&&(q("Percentage",c,d,e),g.push(c))})}function t(c,a){var b,d,f,k=null,l=0,g=function(){l=new Date;k=null;f=c.apply(b,d)};return function(){var e=new Date;l||(l=e);var h=a-(e-l);b=this;d=arguments;0>=h?(clearTimeout(k),k=null,l=e,f=c.apply(b,d)):k||(k=setTimeout(g,h));return f}}function n(){f.on("scroll.scrollDepth",t(function(){var c=
+a(document).height(),d=window.innerHeight?window.innerHeight:f.height();d=f.scrollTop()+d;c={"25%":parseInt(.25*c,10),"50%":parseInt(.5*c,10),"75%":parseInt(.75*c,10),"100%":c-5};var e=+new Date-u;g.length>=(b.percentage?4:0)?f.off("scroll.scrollDepth"):b.percentage&&r(c,d,e)},500))}var u=+new Date;b=a.extend({},p,b);a(document).height()<b.minHeight||(a.scrollDepth.reset=function(){g=[];h=0;f.off("scroll.scrollDepth");n()},n(),"undefined"===typeof window[b.dataLayer]||"function"!==typeof window[b.dataLayer].push||
+b.gtmOverride||(m=function(a){window[b.dataLayer].push(a)}))};return a.scrollDepth});</script>
+<script type="text/javascript" id="">jQuery(function(){jQuery.scrollDepth()});window.addEventListener("beforeunload",function(a){dataLayer.push({event:"pushOnUnload"})});</script><div style="display: none; visibility: hidden;">
+<script type="text/javascript">var _auto={accountKey:"0cf738c9d2c2033aaa3bb88f6ae0a9f57c18d1b822b19058d46be2fd29de4f58",u1:"ifw",apiURL:"https://www.popshops.com",snippetURL:"https://automate-prod.s3.amazonaws.com/minified_logic.js",automateURL:"https://automate.linksynergy.com",widgetKey:"xp35fk24bu8fvo1ajpk3qdt2izxuffjj",aelJS:null,useDefaultAEL:!1,loaded:!1,events:[]},ael=window.addEventListener;
+window.addEventListener=function(a,b,c,d){"click"!==a&&_auto.useDefaultAEL?ael(a,b,c):_auto.events.push({type:a,handler:b,capture:c,rakuten:d})};_auto.links={};var httpRequest=new XMLHttpRequest;httpRequest.open("GET",_auto.snippetURL,!0);httpRequest.timeout=5E3;httpRequest.ontimeout=function(){if(!_auto.loaded){for(i=0;i<_auto.events.length;i++){var a=_auto.events[i];ael(a.type,a.handler,a.capture)}_auto.useDefaultAEL=!0}};
+httpRequest.onreadystatechange=function(){httpRequest.readyState===XMLHttpRequest.DONE&&200===httpRequest.status&&(eval(httpRequest.responseText),_auto.run(ael))};httpRequest.send(null);</script>
+
+
+
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/am.js.download"></script>
+</div><div style="display: none; visibility: hidden;">
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/oct.js.download" type="text/javascript"></script>
+<script type="text/javascript">twttr.conversion.trackPid("nuqtk",{tw_sale_amount:0,tw_order_quantity:0});</script>
+<noscript></noscript>
+</div><div style="display: none; visibility: hidden;">
+<script>!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","//connect.facebook.net/en_US/fbevents.js");fbq("init","628093423999127");fbq("track","PageView");</script>
+<noscript></noscript>
+</div><div style="display: none; visibility: hidden;">
+<script src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/oct.js.download" type="text/javascript"></script>
+<script type="text/javascript">twttr.conversion.trackPid("nukm3",{tw_sale_amount:0,tw_order_quantity:0});</script>
+<noscript></noscript>
+</div><div style="display: none; visibility: hidden;">
+<script type="text/javascript">_linkedin_data_partner_id="45909";</script>
+<script type="text/javascript">(function(){var b=document.getElementsByTagName("script")[0],a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://snap.licdn.com/li.lms-analytics/insight.min.js";b.parentNode.insertBefore(a,b)})();</script>
+<noscript></noscript></div><div style="display: none; visibility: hidden;"><script>var _alcTag=_alcTag||[];(function(){var a=document.createElement("script");a.async=1;a.src="//wt.alcmpn.com/wt/116/webtag.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script></div><div style="display: none; visibility: hidden;"><script type="text/javascript">var pubId="11429",siteId="12773",kioskedscript=document.createElement("script");kioskedscript.setAttribute("async","async");kioskedscript.setAttribute("src","//scripts.kiosked.com/loader/kiosked-loader.js?pub\x3d"+pubId+"\x26site\x3d"+siteId);kioskedscript.setAttribute("type","text/javascript");var anonscript=document.createElement("script");anonscript.setAttribute("async","async");anonscript.setAttribute("src","//anonymousdemographics.com/u?pub\x3d"+pubId+"\x26site\x3d"+siteId+"\x26ts\x3d0\x26_response_content_type\x3djs");
+anonscript.setAttribute("type","text/javascript");window.top.document.body.appendChild(kioskedscript);window.top.document.body.appendChild(anonscript);</script></div><div style="display: none; visibility: hidden;"><script type="text/javascript" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/111346X1569476.skimlinks.js.download"></script></div>
+<iframe id="google_osd_static_frame_4276980698384" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/saved_resource(4).html"></iframe><div style="background-color: #fff; border: 1px solid #ccc; box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); position: absolute; left: 0px; top: -10000px; transition: visibility 0s linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: #fff; opacity: 0.05;  filter: alpha(opacity=5)"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0; height: 0; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0; height: 0; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/bframe.html" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" name="67qkhgp5822p" style="width: 100%; height: 100%;"></iframe></div></div><script async="async" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/kiosked-loader.js.download" type="text/javascript"></script><script async="async" src="./Beyond Jenkins_ 7 devops tools _ InfoWorld_files/u" type="text/javascript"></script></body></html>
